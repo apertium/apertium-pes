@@ -2,3 +2,4 @@
 /Makefile -text
 /apertium-pes.pes.dix -text
 dev/apertium-tg-fa.fa.dix -text
+/pes.prob -text
