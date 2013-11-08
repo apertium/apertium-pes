@@ -848,8 +848,8 @@
     </pardef>
 
     <pardef n="imp_endings">
-      <e><p><l/><r><s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ید</l><r><s n="vblex"/><s n="pii"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l/><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ید</l><r><s n="p2"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="pres_endings">
@@ -1336,7 +1336,7 @@
                         <e><par n="P__jprefixes"/><p><l>کوبان</l><r>کوباندن<s n="vblex"/><s n="prs"/></r></p><par n="pres_endings"/></e>
 
 </pardef>
-<pardef n="/VERBS__کند">
+<!--<pardef n="/VERBS__کند">
                         <e><par n="P__prefixes"/><p><l>کند</l><r>کندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__prefixes"/><p><l>کنده</l><r>کندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کنان</l><r>کندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1345,7 +1345,7 @@
                         <e><par n="P__jprefixes"/><p><l>کن</l><r>کندن<s n="vblex"/><s n="prs"/></r></p><par n="pres_endings"/></e>
 
 </pardef>
-<pardef n="/VERBS__کشید">
+--><pardef n="/VERBS__کشید">
                         <e><par n="P__prefixes"/><p><l>کشید</l><r>کشیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__prefixes"/><p><l>کشیده</l><r>کشیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کشان</l><r>کشیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -2883,31 +2883,31 @@
 
                             <!-- old: <e lm="رفتن"><i/><par n="/VERBS__رفت"/></e> -->
 
-    <e lm="کردن"><p><l>کرد</l><r>کرد<s n="vblex"/></r></p><par n="کرد/ن__vblex"/></e>
-    <e lm="کردن"><p><l>نکرد</l><r>کرد<s n="vblex"/></r></p><par n="نکرد/ن__vblex"/></e>
-    <e lm="کردن"><p><l>می‌کرد</l><r>کرد<s n="vblex"/></r></p><par n="می‌کرد/ن__vblex"/></e>
-    <e lm="کردن" r="LR"><p><l>میکرد</l><r>کرد<s n="vblex"/></r></p><par n="می‌کرد/ن__vblex"/></e>
-    <e lm="کردن"><p><l>نمی‌کرد</l><r>کرد<s n="vblex"/></r></p><par n="نمی‌کرد/ن__vblex"/></e>
-    <e lm="کردن" r="LR"><p><l>نمیکرد</l><r>کرد<s n="vblex"/></r></p><par n="نمی‌کرد/ن__vblex"/></e>
-    <e lm="کردن"><p><l>بکن</l><r>کردن<s n="vblex"/></r></p><par n="بکن__vblex"/></e>
-    <e lm="کردن"><p><l>نکن</l><r>کردن<s n="vblex"/></r></p><par n="نکن__vblex"/></e>
-    <e lm="کردن"><p><l>می‌کن</l><r>کردن<s n="vblex"/></r></p><par n="می‌کن__vblex"/></e>
-    <e lm="کردن" r="LR"><p><l>میکن</l><r>کردن<s n="vblex"/></r></p><par n="می‌کن__vblex"/></e>
-    <e lm="کردن"><p><l>نمی‌کن</l><r>کردن<s n="vblex"/></r></p><par n="نمی‌کن__vblex"/></e>
-    <e lm="کردن" r="LR"><p><l>نمیکن</l><r>کردن<s n="vblex"/></r></p><par n="نمی‌کن__vblex"/></e>
+    <e lm="کردن"><p><l>کرد</l><r>کرد</r></p><par n="کرد/ن__vblex"/></e>
+    <e lm="کردن"><p><l>نکرد</l><r>کرد</r></p><par n="نکرد/ن__vblex"/></e>
+    <e lm="کردن"><p><l>می‌کرد</l><r>کرد</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="کردن" r="LR"><p><l>میکرد</l><r>کرد</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="کردن"><p><l>نمی‌کرد</l><r>کرد</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="کردن" r="LR"><p><l>نمیکرد</l><r>کرد</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="کردن"><p><l>بکن</l><r>کردن</r></p><par n="بکن__vblex"/></e>
+    <e lm="کردن"><p><l>نکن</l><r>کردن</r></p><par n="نکن__vblex"/></e>
+    <e lm="کردن"><p><l>می‌کن</l><r>کردن</r></p><par n="می‌کن__vblex"/></e>
+    <e lm="کردن" r="LR"><p><l>میکن</l><r>کردن</r></p><par n="می‌کن__vblex"/></e>
+    <e lm="کردن"><p><l>نمی‌کن</l><r>کردن</r></p><par n="نمی‌کن__vblex"/></e>
+    <e lm="کردن" r="LR"><p><l>نمیکن</l><r>کردن</r></p><par n="نمی‌کن__vblex"/></e>
     
-    <e lm="رفتن"><p><l>رفت</l><r>رفت<s n="vblex"/></r></p><par n="کرد/ن__vblex"/></e>
-    <e lm="رفتن"><p><l>نرفت</l><r>رفت<s n="vblex"/></r></p><par n="نکرد/ن__vblex"/></e>
-    <e lm="رفتن"><p><l>می‌رفت</l><r>رفت<s n="vblex"/></r></p><par n="می‌کرد/ن__vblex"/></e>
-    <e lm="رفتن" r="LR"><p><l>میرفت</l><r>رفت<s n="vblex"/></r></p><par n="می‌کرد/ن__vblex"/></e>
-    <e lm="رفتن"><p><l>نمی‌رفت</l><r>رفت<s n="vblex"/></r></p><par n="نمی‌کرد/ن__vblex"/></e>
-    <e lm="رفتن" r="LR"><p><l>نمیرفت</l><r>رفت<s n="vblex"/></r></p><par n="نمی‌کرد/ن__vblex"/></e>
-    <e lm="رفتن"><p><l>برف</l><r>رفتن<s n="vblex"/></r></p><par n="بکن__vblex"/></e>
-    <e lm="رفتن"><p><l>نرف</l><r>رفتن<s n="vblex"/></r></p><par n="نکن__vblex"/></e>
-    <e lm="رفتن"><p><l>می‌رف</l><r>رفتن<s n="vblex"/></r></p><par n="می‌کن__vblex"/></e>
-    <e lm="رفتن" r="LR"><p><l>میرف</l><r>رفتن<s n="vblex"/></r></p><par n="می‌کن__vblex"/></e>
-    <e lm="رفتن"><p><l>نمی‌رف</l><r>رفتن<s n="vblex"/></r></p><par n="نمی‌کن__vblex"/></e>
-    <e lm="رفتن" r="LR"><p><l>نمیرف</l><r>رفتن<s n="vblex"/></r></p><par n="نمی‌کن__vblex"/></e>
+    <e lm="رفتن"><p><l>رفت</l><r>رفت</r></p><par n="کرد/ن__vblex"/></e>
+    <e lm="رفتن"><p><l>نرفت</l><r>رفت</r></p><par n="نکرد/ن__vblex"/></e>
+    <e lm="رفتن"><p><l>می‌رفت</l><r>رفت</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="رفتن" r="LR"><p><l>میرفت</l><r>رفت</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="رفتن"><p><l>نمی‌رفت</l><r>رفت</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="رفتن" r="LR"><p><l>نمیرفت</l><r>رفت</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="رفتن"><p><l>برف</l><r>رفتن</r></p><par n="بکن__vblex"/></e>
+    <e lm="رفتن"><p><l>نرف</l><r>رفتن</r></p><par n="نکن__vblex"/></e>
+    <e lm="رفتن"><p><l>می‌رف</l><r>رفتن</r></p><par n="می‌کن__vblex"/></e>
+    <e lm="رفتن" r="LR"><p><l>میرف</l><r>رفتن</r></p><par n="می‌کن__vblex"/></e>
+    <e lm="رفتن"><p><l>نمی‌رف</l><r>رفتن</r></p><par n="نمی‌کن__vblex"/></e>
+    <e lm="رفتن" r="LR"><p><l>نمیرف</l><r>رفتن</r></p><par n="نمی‌کن__vblex"/></e>
     
                             <e lm="رنجانیدن"><i/><par n="/VERBS__رنجانید"/></e>
 
