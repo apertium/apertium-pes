@@ -2864,14 +2864,27 @@
 
                             <!-- old: <e lm="رفتن"><i/><par n="/VERBS__رفت"/></e> -->
                             
-                            <e lm="رفتن"><p><l>رفت</l><r>رفتن<s n="vblex"/><s n="past"/></r></p><par n="V__چشید/ن__vblex"/></e>
-                            <e lm="رفتن"><p><l>نرفت</l><r>رفتن<s n="vblex"/><s n="neg"/><s n="past"/></r></p><par n="V__چشید/ن__vblex"/></e>
-                            <e lm="رفتن"><p><l>برو</l><r>رفتن<s n="vblex"/><s n="imp"/></r></p><par n="V__/بچش[چشیدن]__vblex"/></e>
-                            <e lm="رفتن"><p><l>نرو</l><r>رفتن<s n="vblex"/><s n="neg"/><s n="imp"/></r></p><par n="V__/بچش[چشیدن]__vblex"/></e>
-                            <e lm="رفتن"><p><l>می‌رو</l><r>رفتن<s n="vblex"/><s n="cont"/><s n="pri"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
-                            <e lm="رفتن"><p><l>نمی‌رو</l><r>رفتن<s n="vblex"/><s n="neg"/><s n="cont"/><s n="pri"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
-                            <e lm="رفتن"><p><l>برو</l><r>رفتن<s n="vblex"/><s n="prs"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
-                            <e lm="رفتن"><p><l>نرو</l><r>رفتن<s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
+    <e lm="کردن"><p><l>کرد</l><r>کردن<s n="vblex"/>                             <s n="past"/></r></p><par n="V__چشید/ن__vblex"/></e>
+    <e lm="کردن"><p><l>نکرد</l><r>کردن<s n="vblex"/>   <s n="neg"/>             <s n="past"/></r></p><par n="V__چشید/ن__vblex"/></e>
+    <e lm="کردن"><p><l>می‌کرد</l><r>کردن<s n="vblex"/>              <s n="cont"/><s n="past"/></r></p><par n="V__چشید/ن__vblex"/></e>
+    <e lm="کردن"><p><l>نمی‌کرد</l><r>کردن<s n="vblex"/> <s n="neg"/><s n="cont"/><s n="past"/></r></p><par n="V__چشید/ن__vblex"/></e>
+    <e lm="کردن"><p><l>بکن</l><r>کردن<s n="vblex"/>                             <s n="imp"/></r></p><par n="V__/بچش[چشیدن]__vblex"/></e>
+    <e lm="کردن"><p><l>بکن</l><r>کردن<s n="vblex"/>    <s n="neg"/>             <s n="imp"/></r></p><par n="V__/بچش[چشیدن]__vblex"/></e>
+    <e lm="کردن"><p><l>می‌کن</l><r>کردن<s n="vblex"/>               <s n="cont"/><s n="pri"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
+    <e lm="کردن"><p><l>نمی‌کن</l><r>کردن<s n="vblex"/>  <s n="neg"/><s n="cont"/><s n="pri"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
+    <e lm="کردن"><p><l>بکن</l><r>کردن<s n="vblex"/>                             <s n="prs"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
+    <e lm="کردن"><p><l>نکن</l><r>کردن<s n="vblex"/>    <s n="neg"/>             <s n="prs"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
+    
+    <e lm="رفتن"><p><l>رفت</l><r>رفتن<s n="vblex"/>                             <s n="past"/></r></p><par n="V__چشید/ن__vblex"/></e>   
+    <e lm="رفتن"><p><l>نرفت</l><r>رفتن<s n="vblex"/>   <s n="neg"/>             <s n="past"/></r></p><par n="V__چشید/ن__vblex"/></e>   
+    <e lm="رفتن"><p><l>می‌رفت</l><r>رفتن<s n="vblex"/>              <s n="cont"/><s n="past"/></r></p><par n="V__چشید/ن__vblex"/></e>  
+    <e lm="رفتن"><p><l>نمی‌رفت</l><r>رفتن<s n="vblex"/> <s n="neg"/><s n="cont"/><s n="past"/></r></p><par n="V__چشید/ن__vblex"/></e>  
+    <e lm="رفتن"><p><l>برو</l><r>رفتن<s n="vblex"/>                             <s n="imp"/></r></p><par n="V__/بچش[چشیدن]__vblex"/></e>
+    <e lm="رفتن"><p><l>نرو</l><r>رفتن<s n="vblex"/>    <s n="neg"/>             <s n="imp"/></r></p><par n="V__/بچش[چشیدن]__vblex"/></e>
+    <e lm="رفتن"><p><l>می‌رو</l><r>رفتن<s n="vblex"/>               <s n="cont"/><s n="pri"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
+    <e lm="رفتن"><p><l>نمی‌رو</l><r>رفتن<s n="vblex"/>  <s n="neg"/><s n="cont"/><s n="pri"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
+    <e lm="رفتن"><p><l>برو</l><r>رفتن<s n="vblex"/>                             <s n="prs"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
+    <e lm="رفتن"><p><l>نرو</l><r>رفتن<s n="vblex"/>    <s n="neg"/>             <s n="prs"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
                             
                             <e lm="رنجانیدن"><i/><par n="/VERBS__رنجانید"/></e>
 
