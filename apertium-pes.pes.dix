@@ -93,6 +93,8 @@
     <sdef n="izo" c="izofa"/>
     <sdef n="me" c="me verb prefix"/>
     <sdef n="bi" c="bi verb prefix"/>
+    <sdef n="cont" c="continuous verb prefix"/>
+    <sdef n="sbjv" c="subjunctive verb prefix"/>
   </sdefs>
 <pardefs>
 
@@ -2860,8 +2862,12 @@
 
                             <e lm="رشتن"><i/><par n="/VERBS__رشت"/></e>
 
-                            <!--<e lm="رفتن"><i/><par n="/VERBS__رفت"/></e> -->
-                            <e lm="رفتن"><p><l>می‌رو</l><r>رفتن<s n="vblex"/><s n="prs"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
+                            <!-- old: <e lm="رفتن"><i/><par n="/VERBS__رفت"/></e> -->
+                            
+                            <e lm="رفتن"><p><l>رفت</l><r>رفتن<s n="vblex"/><s n="past"/></r></p><par n="V__چشید/ن__vblex"/></e>
+                            <e lm="رفتن"><p><l>رو</l><r>رفتن<s n="vblex"/><s n="imp"/></r></p><par n="V__/بچش[چشیدن]__vblex"/></e>
+                            <e lm="رفتن"><p><l>می‌رو</l><r>رفتن<s n="cont"/><s n="vblex"/><s n="pri"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
+                            <e lm="رفتن"><p><l>برو</l><r>رفتن<s n="vblex"/><s n="prs"/></r></p><par n="V__چش/[چشیدن]__vblex"/></e>
                             
                             <e lm="رنجانیدن"><i/><par n="/VERBS__رنجانید"/></e>
 
