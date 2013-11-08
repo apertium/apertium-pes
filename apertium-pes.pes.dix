@@ -1336,7 +1336,7 @@
                         <e><par n="P__jprefixes"/><p><l>کوبان</l><r>کوباندن<s n="vblex"/><s n="prs"/></r></p><par n="pres_endings"/></e>
 
 </pardef>
-<!--<pardef n="/VERBS__کند">
+<pardef n="/VERBS__کند">
                         <e><par n="P__prefixes"/><p><l>کند</l><r>کندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__prefixes"/><p><l>کنده</l><r>کندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کنان</l><r>کندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -1345,7 +1345,7 @@
                         <e><par n="P__jprefixes"/><p><l>کن</l><r>کندن<s n="vblex"/><s n="prs"/></r></p><par n="pres_endings"/></e>
 
 </pardef>
---><pardef n="/VERBS__کشید">
+<pardef n="/VERBS__کشید">
                         <e><par n="P__prefixes"/><p><l>کشید</l><r>کشیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__prefixes"/><p><l>کشیده</l><r>کشیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کشان</l><r>کشیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
@@ -3035,8 +3035,8 @@
 
                             <e lm="کشاندن"><i/><par n="/VERBS__کشاند"/></e>
 
-                            <e lm="کندن"><i/><par n="/VERBS__کند"/></e>
-
+<!--                            <e lm="کندن"><i/><par n="/VERBS__کند"/></e>
+-->
                             <e lm="کوبانیدن"><i/><par n="/VERBS__کوبانید"/></e>
 
                             <e lm="کوباندن"><i/><par n="/VERBS__کوباند"/></e>
