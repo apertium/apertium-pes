@@ -861,23 +861,13 @@
       <e><p><l>ند</l><r><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
-    
-
-    <pardef n="aV__/استن__vbser">
-  
-      
-                              <e>       <p><l>ایم</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-
-                              <e>       <p><l>ام</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-
-                              <e>       <p><l>اید</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-
-                              <e>       <p><l>ای</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-
-                              <e>       <p><l>اند</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
-
-                              <e>       <p><l>است</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-
+    <pardef n="perfect_endings">
+      <e><p><l>ام</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ای</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>است</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ایم</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>اید</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>اند</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="کرد/ن__vblex" c="preterite (past)">
@@ -923,7 +913,7 @@
 
                               <e><par n="P__prefixes"/><p><l/><r>ن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
 
-                              <e><par n="P__prefixes"/><p><l>ه</l><r>ن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                              <e><par n="P__prefixes"/><p><l>ه</l><r>ن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
 
       
       
@@ -950,11 +940,11 @@
 
                               <e><par n="P__jjprefixes"/><p><l/><r>ن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
 
-                              <e><i/><p><l>ه</l><r>ن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                              <e><i/><p><l>ه</l><r>ن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
 
-                              <e><par n="P__jnjprefixes"/><i/><p><l>ه</l><r>ن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                              <e><par n="P__jnjprefixes"/><i/><p><l>ه</l><r>ن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
 
-                              <e><par n="P__jjprefixes"/><p><l>ه</l><r>ن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                              <e><par n="P__jjprefixes"/><p><l>ه</l><r>ن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
 
       
       
@@ -982,9 +972,9 @@
                         <e><i>ا</i><p><l>ندوختن</l><r>ندوختنن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jnjprefixes"/><i>ا</i><p><l>ندوختن</l><r>ندوختنن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jjprefixes"/><p><l>یاندوختن</l><r>اندوختنن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><i>ا</i><p><l>ندوختنه</l><r>ندوختنن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>ندوختنه</l><r>ندوختنن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یاندوختنه</l><r>اندوختنن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><i>ا</i><p><l>ندوختنه</l><r>ندوختنن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>ندوختنه</l><r>ندوختنن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jjprefixes"/><p><l>یاندوختنه</l><r>اندوختنن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><i>ا</i><p><l>ندوز</l><r>ندوختنن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="Pjj__imp__prefixes"/><p><l>یاندوز</l><r>اندوختنن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><i>ا</i><p><l>ندوز</l><r>ندوختنن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
@@ -998,9 +988,9 @@
                         <e><i>ا</i><p><l>نباشت</l><r>نباشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jnjprefixes"/><i>ا</i><p><l>نباشت</l><r>نباشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jjprefixes"/><p><l>یانباشت</l><r>انباشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><i>ا</i><p><l>نباشته</l><r>نباشتن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>نباشته</l><r>نباشتن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یانباشته</l><r>انباشتن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><i>ا</i><p><l>نباشته</l><r>نباشتن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>نباشته</l><r>نباشتن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jjprefixes"/><p><l>یانباشته</l><r>انباشتن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><i>ا</i><p><l>نبار</l><r>نباشتن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="Pjj__imp__prefixes"/><p><l>یانبار</l><r>انباشتن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><i>ا</i><p><l>نبار</l><r>نباشتن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
@@ -1014,9 +1004,9 @@
                         <e><i>آ</i><p><l>مد</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jnjprefixes"/><i>آ</i><p><l>مد</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jjprefixes"/><p><l>یامد</l><r>آمدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><i>آ</i><p><l>مده</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jnjprefixes"/><i>آ</i><p><l>مده</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یامده</l><r>آمدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><i>آ</i><p><l>مده</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jnjprefixes"/><i>آ</i><p><l>مده</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jjprefixes"/><p><l>یامده</l><r>آمدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><i>آ</i><p><l/><r>مدن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="Pjj__imp__prefixes"/><p><l>یا</l><r>آمدن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><i>آ</i><p><l>ی</l><r>مدن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
@@ -1030,9 +1020,9 @@
                         <e><i>ا</i><p><l>فشرد</l><r>فشردن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فشرد</l><r>فشردن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jjprefixes"/><p><l>یافشرد</l><r>افشردن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><i>ا</i><p><l>فشرده</l><r>فشردن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فشرده</l><r>فشردن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یافشرده</l><r>افشردن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><i>ا</i><p><l>فشرده</l><r>فشردن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فشرده</l><r>فشردن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jjprefixes"/><p><l>یافشرده</l><r>افشردن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><i>ا</i><p><l>فشر</l><r>فشردن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="Pjj__imp__prefixes"/><p><l>یافشر</l><r>افشردن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><i>ا</i><p><l>فشر</l><r>فشردن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
@@ -1046,9 +1036,9 @@
                         <e><i>ا</i><p><l>فزود</l><r>فزودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فزود</l><r>فزودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jjprefixes"/><p><l>یافزود</l><r>افزودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><i>ا</i><p><l>فزوده</l><r>فزودن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فزوده</l><r>فزودن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یافزوده</l><r>افزودن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><i>ا</i><p><l>فزوده</l><r>فزودن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فزوده</l><r>فزودن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jjprefixes"/><p><l>یافزوده</l><r>افزودن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><i>ا</i><p><l>فزا</l><r>فزودن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="Pjj__imp__prefixes"/><p><l>یافزا</l><r>افزودن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><i>ا</i><p><l>فزای</l><r>فزودن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
@@ -1062,9 +1052,9 @@
                         <e><i>ا</i><p><l>فروزاند</l><r>فروزاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فروزاند</l><r>فروزاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jjprefixes"/><p><l>یافروزاند</l><r>افروزاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><i>ا</i><p><l>فروزانده</l><r>فروزاندن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فروزانده</l><r>فروزاندن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یافروزانده</l><r>افروزاندن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><i>ا</i><p><l>فروزانده</l><r>فروزاندن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فروزانده</l><r>فروزاندن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jjprefixes"/><p><l>یافروزانده</l><r>افروزاندن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><i>ا</i><p><l>فروزان</l><r>فروزاندن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="Pjj__imp__prefixes"/><p><l>یافروزان</l><r>افروزاندن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><i>ا</i><p><l>فروزان</l><r>فروزاندن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
@@ -1078,9 +1068,9 @@
                         <e><i>ا</i><p><l>فروخت</l><r>فروختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فروخت</l><r>فروختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jjprefixes"/><p><l>یافروخت</l><r>افروختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><i>ا</i><p><l>فروخته</l><r>فروختن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فروخته</l><r>فروختن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یافروخته</l><r>افروختن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><i>ا</i><p><l>فروخته</l><r>فروختن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فروخته</l><r>فروختن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jjprefixes"/><p><l>یافروخته</l><r>افروختن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><i>ا</i><p><l>فراز</l><r>فروختن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="Pjj__imp__prefixes"/><p><l>یافراز</l><r>افروختن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><i>ا</i><p><l>فراز</l><r>فروختن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
@@ -1094,9 +1084,9 @@
                         <e><i>ا</i><p><l>فراشت</l><r>فراشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فراشت</l><r>فراشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jjprefixes"/><p><l>یافراشت</l><r>افراشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><i>ا</i><p><l>فراشته</l><r>فراشتن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فراشته</l><r>فراشتن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یافراشته</l><r>افراشتن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><i>ا</i><p><l>فراشته</l><r>فراشتن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jnjprefixes"/><i>ا</i><p><l>فراشته</l><r>فراشتن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jjprefixes"/><p><l>یافراشته</l><r>افراشتن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><i>ا</i><p><l>فراز</l><r>فراشتن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="Pjj__imp__prefixes"/><p><l>یافراز</l><r>افراشتن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><i>ا</i><p><l>فراز</l><r>فراشتن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
@@ -1110,9 +1100,9 @@
                         <e><i>آ</i><p><l>شامید</l><r>شامیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jnjprefixes"/><i>آ</i><p><l>شامید</l><r>شامیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jjprefixes"/><p><l>یاشامید</l><r>آشامیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><i>آ</i><p><l>شامیده</l><r>شامیدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jnjprefixes"/><i>آ</i><p><l>شامیده</l><r>شامیدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یاشامیده</l><r>آشامیدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><i>آ</i><p><l>شامیده</l><r>شامیدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jnjprefixes"/><i>آ</i><p><l>شامیده</l><r>شامیدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jjprefixes"/><p><l>یاشامیده</l><r>آشامیدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><i>آ</i><p><l>شام</l><r>شامیدن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="Pjj__imp__prefixes"/><p><l>یاشام</l><r>آشامیدن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><i>آ</i><p><l>شام</l><r>شامیدن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
@@ -1126,9 +1116,9 @@
                         <e><i>آ</i><p><l>زمود</l><r>زمودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jnjprefixes"/><i>آ</i><p><l>زمود</l><r>زمودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jjprefixes"/><p><l>یازمود</l><r>آزمودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><i>آ</i><p><l>زموده</l><r>زمودن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jnjprefixes"/><i>آ</i><p><l>زموده</l><r>زمودن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یازموده</l><r>آزمودن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><i>آ</i><p><l>زموده</l><r>زمودن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jnjprefixes"/><i>آ</i><p><l>زموده</l><r>زمودن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        <e><par n="P__jjprefixes"/><p><l>یازموده</l><r>آزمودن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><i>آ</i><p><l>زما</l><r>زمودن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="Pjj__imp__prefixes"/><p><l>یازما</l><r>آزمودن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><i>آ</i><p><l>زمای</l><r>زمودن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
@@ -1140,7 +1130,7 @@
 </pardef>
 <pardef n="/VERBS__یافت">
                         <e><par n="P__prefixes"/><p><l>یافت</l><r>یافتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>یافته</l><r>یافتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>یافته</l><r>یافتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>یابان</l><r>یافتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>یاب</l><r>یافتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>یاب</l><r>یافتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1149,7 +1139,7 @@
 </pardef>
 <pardef n="/VERBS__یارید">
                         <e><par n="P__prefixes"/><p><l>یارید</l><r>یاریدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>یاریده</l><r>یاریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>یاریده</l><r>یاریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>یاران</l><r>یاریدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>یار</l><r>یاریدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>یار</l><r>یاریدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1158,7 +1148,7 @@
 </pardef>
 <pardef n="/VERBS__گماشت">
                         <e><par n="P__prefixes"/><p><l>گماشت</l><r>گماشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گماشته</l><r>گماشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گماشته</l><r>گماشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گماران</l><r>گماشتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گمار</l><r>گماشتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گمار</l><r>گماشتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1167,7 +1157,7 @@
 </pardef>
 <pardef n="/VERBS__گفتن">
                         <e><par n="P__prefixes"/><p><l>گفتن</l><r>گفتنن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گفتنه</l><r>گفتنن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گفتنه</l><r>گفتنن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گوان</l><r>گفتنن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گوی</l><r>گفتنن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گوی</l><r>گفتنن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1176,7 +1166,7 @@
 </pardef>
 <pardef n="/VERBS__گشود">
                         <e><par n="P__prefixes"/><p><l>گشود</l><r>گشودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گشوده</l><r>گشودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گشوده</l><r>گشودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گشاان</l><r>گشودن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گشای</l><r>گشودن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گشای</l><r>گشودن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1185,7 +1175,7 @@
 </pardef>
 <pardef n="/VERBS__گشت">
                         <e><par n="P__prefixes"/><p><l>گشت</l><r>گشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گشته</l><r>گشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گشته</l><r>گشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گردان</l><r>گشتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گرد</l><r>گشتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گرد</l><r>گشتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1194,7 +1184,7 @@
 </pardef>
 <pardef n="/VERBS__گزاشت">
                         <e><par n="P__prefixes"/><p><l>گزاشت</l><r>گزاشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گزاشته</l><r>گزاشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گزاشته</l><r>گزاشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گزاران</l><r>گزاشتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گزار</l><r>گزاشتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گزار</l><r>گزاشتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1203,7 +1193,7 @@
 </pardef>
 <pardef n="/VERBS__گزارد">
                         <e><par n="P__prefixes"/><p><l>گزارد</l><r>گزاردن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گزارده</l><r>گزاردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گزارده</l><r>گزاردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گزاران</l><r>گزاردن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گزار</l><r>گزاردن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گزار</l><r>گزاردن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1212,7 +1202,7 @@
 </pardef>
 <pardef n="/VERBS__گریست">
                         <e><par n="P__prefixes"/><p><l>گریست</l><r>گریستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گریسته</l><r>گریستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گریسته</l><r>گریستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گریان</l><r>گریستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گری</l><r>گریستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گری</l><r>گریستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1221,7 +1211,7 @@
 </pardef>
 <pardef n="/VERBS__گریخت">
                         <e><par n="P__prefixes"/><p><l>گریخت</l><r>گریختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گریخته</l><r>گریختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گریخته</l><r>گریختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گریزان</l><r>گریختن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گریز</l><r>گریختن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گریز</l><r>گریختن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1230,7 +1220,7 @@
 </pardef>
 <pardef n="/VERBS__گرفت">
                         <e><par n="P__prefixes"/><p><l>گرفت</l><r>گرفتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گرفته</l><r>گرفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گرفته</l><r>گرفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گیران</l><r>گرفتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گیر</l><r>گرفتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گیر</l><r>گرفتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1239,7 +1229,7 @@
 </pardef>
 <pardef n="/VERBS__گذشت">
                         <e><par n="P__prefixes"/><p><l>گذشت</l><r>گذشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گذشته</l><r>گذشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گذشته</l><r>گذشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گذران</l><r>گذشتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گذر</l><r>گذشتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گذر</l><r>گذشتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1248,7 +1238,7 @@
 </pardef>
 <pardef n="/VERBS__گذرانید">
                         <e><par n="P__prefixes"/><p><l>گذرانید</l><r>گذرانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گذرانیده</l><r>گذرانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گذرانیده</l><r>گذرانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گذرانان</l><r>گذرانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گذران</l><r>گذرانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گذران</l><r>گذرانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1257,7 +1247,7 @@
 </pardef>
 <pardef n="/VERBS__گذراند">
                         <e><par n="P__prefixes"/><p><l>گذراند</l><r>گذراندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گذرانده</l><r>گذراندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گذرانده</l><r>گذراندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گذرانان</l><r>گذراندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گذران</l><r>گذراندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گذران</l><r>گذراندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1266,7 +1256,7 @@
 </pardef>
 <pardef n="/VERBS__گذاشت">
                         <e><par n="P__prefixes"/><p><l>گذاشت</l><r>گذاشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گذاشته</l><r>گذاشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گذاشته</l><r>گذاشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گذاران</l><r>گذاشتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گذار</l><r>گذاشتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گذار</l><r>گذاشتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1275,7 +1265,7 @@
 </pardef>
 <pardef n="/VERBS__گذازاند">
                         <e><par n="P__prefixes"/><p><l>گذازاند</l><r>گذازاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گذازانده</l><r>گذازاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گذازانده</l><r>گذازاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گدازانان</l><r>گذازاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گدازان</l><r>گذازاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گدازان</l><r>گذازاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1284,7 +1274,7 @@
 </pardef>
 <pardef n="/VERBS__گدازانید">
                         <e><par n="P__prefixes"/><p><l>گدازانید</l><r>گدازانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گدازانیده</l><r>گدازانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گدازانیده</l><r>گدازانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گدازانان</l><r>گدازانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گدازان</l><r>گدازانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گدازان</l><r>گدازانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1293,7 +1283,7 @@
 </pardef>
 <pardef n="/VERBS__گداخت">
                         <e><par n="P__prefixes"/><p><l>گداخت</l><r>گداختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>گداخته</l><r>گداختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>گداخته</l><r>گداختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>گدازان</l><r>گداختن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>گداز</l><r>گداختن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>گداز</l><r>گداختن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1302,7 +1292,7 @@
 </pardef>
 <pardef n="/VERBS__کوفت">
                         <e><par n="P__prefixes"/><p><l>کوفت</l><r>کوفتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کوفته</l><r>کوفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کوفته</l><r>کوفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کوبان</l><r>کوفتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کوب</l><r>کوفتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کوب</l><r>کوفتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1311,7 +1301,7 @@
 </pardef>
 <pardef n="/VERBS__کوبید">
                         <e><par n="P__prefixes"/><p><l>کوبید</l><r>کوبیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کوبیده</l><r>کوبیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کوبیده</l><r>کوبیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کوبان</l><r>کوبیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کوب</l><r>کوبیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کوب</l><r>کوبیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1320,7 +1310,7 @@
 </pardef>
 <pardef n="/VERBS__کوبانید">
                         <e><par n="P__prefixes"/><p><l>کوبانید</l><r>کوبانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کوبانیده</l><r>کوبانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کوبانیده</l><r>کوبانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کوبانان</l><r>کوبانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کوبان</l><r>کوبانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کوبان</l><r>کوبانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1329,7 +1319,7 @@
 </pardef>
 <pardef n="/VERBS__کوباند">
                         <e><par n="P__prefixes"/><p><l>کوباند</l><r>کوباندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کوبانده</l><r>کوباندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کوبانده</l><r>کوباندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کوبانان</l><r>کوباندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کوبان</l><r>کوباندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کوبان</l><r>کوباندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1338,7 +1328,7 @@
 </pardef>
 <pardef n="/VERBS__کند">
                         <e><par n="P__prefixes"/><p><l>کند</l><r>کندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کنده</l><r>کندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کنده</l><r>کندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کنان</l><r>کندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کن</l><r>کندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کن</l><r>کندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1347,7 +1337,7 @@
 </pardef>
 <pardef n="/VERBS__کشید">
                         <e><par n="P__prefixes"/><p><l>کشید</l><r>کشیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کشیده</l><r>کشیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کشیده</l><r>کشیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کشان</l><r>کشیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کش</l><r>کشیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کش</l><r>کشیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1356,7 +1346,7 @@
 </pardef>
 <pardef n="/VERBS__کشانید">
                         <e><par n="P__prefixes"/><p><l>کشانید</l><r>کشانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کشانیده</l><r>کشانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کشانیده</l><r>کشانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کشانان</l><r>کشانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کشان</l><r>کشانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کشان</l><r>کشانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1365,7 +1355,7 @@
 </pardef>
 <pardef n="/VERBS__کشاند">
                         <e><par n="P__prefixes"/><p><l>کشاند</l><r>کشاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کشانده</l><r>کشاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کشانده</l><r>کشاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کشانان</l><r>کشاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کشان</l><r>کشاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کشان</l><r>کشاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1374,7 +1364,7 @@
 </pardef>
 <pardef n="/VERBS__کاوید">
                         <e><par n="P__prefixes"/><p><l>کاوید</l><r>کاویدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کاویده</l><r>کاویدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کاویده</l><r>کاویدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاوان</l><r>کاویدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاو</l><r>کاویدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کاو</l><r>کاویدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1383,7 +1373,7 @@
 </pardef>
 <pardef n="/VERBS__کاوانید">
                         <e><par n="P__prefixes"/><p><l>کاوانید</l><r>کاوانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کاوانیده</l><r>کاوانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کاوانیده</l><r>کاوانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاوانان</l><r>کاوانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاوان</l><r>کاوانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کاوان</l><r>کاوانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1392,7 +1382,7 @@
 </pardef>
 <pardef n="/VERBS__کاواند">
                         <e><par n="P__prefixes"/><p><l>کاواند</l><r>کاواندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کاوانده</l><r>کاواندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کاوانده</l><r>کاواندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاوانان</l><r>کاواندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاوان</l><r>کاواندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کاوان</l><r>کاواندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1401,7 +1391,7 @@
 </pardef>
 <pardef n="/VERBS__کاهید">
                         <e><par n="P__prefixes"/><p><l>کاهید</l><r>کاهیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کاهیده</l><r>کاهیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کاهیده</l><r>کاهیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاهاندان</l><r>کاهیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاهاند</l><r>کاهیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کاهاند</l><r>کاهیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1410,7 +1400,7 @@
 </pardef>
 <pardef n="/VERBS__کافت">
                         <e><par n="P__prefixes"/><p><l>کافت</l><r>کافتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کافته</l><r>کافتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کافته</l><r>کافتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاوان</l><r>کافتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاو</l><r>کافتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کاو</l><r>کافتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1419,7 +1409,7 @@
 </pardef>
 <pardef n="/VERBS__کاشت">
                         <e><par n="P__prefixes"/><p><l>کاشت</l><r>کاشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کاشته</l><r>کاشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کاشته</l><r>کاشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاران</l><r>کاشتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کار</l><r>کاشتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کار</l><r>کاشتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1428,7 +1418,7 @@
 </pardef>
 <pardef n="/VERBS__کاست">
                         <e><par n="P__prefixes"/><p><l>کاست</l><r>کاستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>کاسته</l><r>کاستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>کاسته</l><r>کاستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاهان</l><r>کاستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>کاه</l><r>کاستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>کاه</l><r>کاستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1437,7 +1427,7 @@
 </pardef>
 <pardef n="/VERBS__چید">
                         <e><par n="P__prefixes"/><p><l>چید</l><r>چیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>چیده</l><r>چیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>چیده</l><r>چیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>چینان</l><r>چیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>چین</l><r>چیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>چین</l><r>چیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1446,7 +1436,7 @@
 </pardef>
 <pardef n="/VERBS__پیوست">
                         <e><par n="P__prefixes"/><p><l>پیوست</l><r>پیوستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پیوسته</l><r>پیوستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پیوسته</l><r>پیوستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پیوندان</l><r>پیوستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پیوند</l><r>پیوستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پیوند</l><r>پیوستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1455,7 +1445,7 @@
 </pardef>
 <pardef n="/VERBS__پیمود">
                         <e><par n="P__prefixes"/><p><l>پیمود</l><r>پیمودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پیموده</l><r>پیمودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پیموده</l><r>پیمودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پیماان</l><r>پیمودن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پیمای</l><r>پیمودن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پیمای</l><r>پیمودن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1464,7 +1454,7 @@
 </pardef>
 <pardef n="/VERBS__پیمایید">
                         <e><par n="P__prefixes"/><p><l>پیمایید</l><r>پیماییدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پیماییده</l><r>پیماییدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پیماییده</l><r>پیماییدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پیماان</l><r>پیماییدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پیمای</l><r>پیماییدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پیمای</l><r>پیماییدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1473,7 +1463,7 @@
 </pardef>
 <pardef n="/VERBS__پوشید">
                         <e><par n="P__prefixes"/><p><l>پوشید</l><r>پوشیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پوشیده</l><r>پوشیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پوشیده</l><r>پوشیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پوشان</l><r>پوشیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پوش</l><r>پوشیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پوش</l><r>پوشیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1482,7 +1472,7 @@
 </pardef>
 <pardef n="/VERBS__پوشانید">
                         <e><par n="P__prefixes"/><p><l>پوشانید</l><r>پوشانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پوشانیده</l><r>پوشانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پوشانیده</l><r>پوشانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پوشانان</l><r>پوشانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پوشان</l><r>پوشانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پوشان</l><r>پوشانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1491,7 +1481,7 @@
 </pardef>
 <pardef n="/VERBS__پوشاند">
                         <e><par n="P__prefixes"/><p><l>پوشاند</l><r>پوشاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پوشانده</l><r>پوشاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پوشانده</l><r>پوشاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پوشانان</l><r>پوشاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پوشان</l><r>پوشاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پوشان</l><r>پوشاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1500,7 +1490,7 @@
 </pardef>
 <pardef n="/VERBS__پنداشت">
                         <e><par n="P__prefixes"/><p><l>پنداشت</l><r>پنداشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پنداشته</l><r>پنداشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پنداشته</l><r>پنداشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پنداران</l><r>پنداشتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پندار</l><r>پنداشتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پندار</l><r>پنداشتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1509,7 +1499,7 @@
 </pardef>
 <pardef n="/VERBS__پزانید">
                         <e><par n="P__prefixes"/><p><l>پزانید</l><r>پزانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پزانیده</l><r>پزانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پزانیده</l><r>پزانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پزانان</l><r>پزانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پزان</l><r>پزانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پزان</l><r>پزانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1518,7 +1508,7 @@
 </pardef>
 <pardef n="/VERBS__پزاند">
                         <e><par n="P__prefixes"/><p><l>پزاند</l><r>پزاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پزانده</l><r>پزاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پزانده</l><r>پزاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پزانان</l><r>پزاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پزان</l><r>پزاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پزان</l><r>پزاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1527,7 +1517,7 @@
 </pardef>
 <pardef n="/VERBS__پرید">
                         <e><par n="P__prefixes"/><p><l>پرید</l><r>پریدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پریده</l><r>پریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پریده</l><r>پریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پران</l><r>پریدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پر</l><r>پریدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پر</l><r>پریدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1536,7 +1526,7 @@
 </pardef>
 <pardef n="/VERBS__پرورید">
                         <e><par n="P__prefixes"/><p><l>پرورید</l><r>پروریدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پروریده</l><r>پروریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پروریده</l><r>پروریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پروران</l><r>پروریدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پرور</l><r>پروریدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پرور</l><r>پروریدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1545,7 +1535,7 @@
 </pardef>
 <pardef n="/VERBS__پرورد">
                         <e><par n="P__prefixes"/><p><l>پرورد</l><r>پروردن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پرورده</l><r>پروردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پرورده</l><r>پروردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پروران</l><r>پروردن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پرور</l><r>پروردن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پرور</l><r>پروردن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1554,7 +1544,7 @@
 </pardef>
 <pardef n="/VERBS__پرورانید">
                         <e><par n="P__prefixes"/><p><l>پرورانید</l><r>پرورانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پرورانیده</l><r>پرورانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پرورانیده</l><r>پرورانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پرورانان</l><r>پرورانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پروران</l><r>پرورانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پروران</l><r>پرورانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1563,7 +1553,7 @@
 </pardef>
 <pardef n="/VERBS__پروراند">
                         <e><par n="P__prefixes"/><p><l>پروراند</l><r>پروراندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پرورانده</l><r>پروراندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پرورانده</l><r>پروراندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پرورانان</l><r>پروراندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پروران</l><r>پروراندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پروران</l><r>پروراندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1572,7 +1562,7 @@
 </pardef>
 <pardef n="/VERBS__پرداخت">
                         <e><par n="P__prefixes"/><p><l>پرداخت</l><r>پرداختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پرداخته</l><r>پرداختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پرداخته</l><r>پرداختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پردازان</l><r>پرداختن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پرداز</l><r>پرداختن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پرداز</l><r>پرداختن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1581,7 +1571,7 @@
 </pardef>
 <pardef n="/VERBS__پراکند">
                         <e><par n="P__prefixes"/><p><l>پراکند</l><r>پراکندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پراکنده</l><r>پراکندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پراکنده</l><r>پراکندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پراکنان</l><r>پراکندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پراکن</l><r>پراکندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پراکن</l><r>پراکندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1590,7 +1580,7 @@
 </pardef>
 <pardef n="/VERBS__پرانید">
                         <e><par n="P__prefixes"/><p><l>پرانید</l><r>پرانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پرانیده</l><r>پرانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پرانیده</l><r>پرانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پرانان</l><r>پرانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پران</l><r>پرانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پران</l><r>پرانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1599,7 +1589,7 @@
 </pardef>
 <pardef n="/VERBS__پراند">
                         <e><par n="P__prefixes"/><p><l>پراند</l><r>پراندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پرانده</l><r>پراندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پرانده</l><r>پراندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پرانان</l><r>پراندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پران</l><r>پراندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پران</l><r>پراندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1608,7 +1598,7 @@
 </pardef>
 <pardef n="/VERBS__پذیرفت">
                         <e><par n="P__prefixes"/><p><l>پذیرفت</l><r>پذیرفتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پذیرفته</l><r>پذیرفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پذیرفته</l><r>پذیرفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پذیران</l><r>پذیرفتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پذیر</l><r>پذیرفتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پذیر</l><r>پذیرفتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1617,7 +1607,7 @@
 </pardef>
 <pardef n="/VERBS__پخت">
                         <e><par n="P__prefixes"/><p><l>پخت</l><r>پختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پخته</l><r>پختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پخته</l><r>پختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پزان</l><r>پختن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پز</l><r>پختن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پز</l><r>پختن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1626,7 +1616,7 @@
 </pardef>
 <pardef n="/VERBS__پالود">
                         <e><par n="P__prefixes"/><p><l>پالود</l><r>پالودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>پالوده</l><r>پالودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>پالوده</l><r>پالودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>پالا‍ان</l><r>پالودن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>پالا‍ی</l><r>پالودن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>پالا‍ی</l><r>پالودن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1635,7 +1625,7 @@
 </pardef>
 <pardef n="/VERBS__هشت">
                         <e><par n="P__prefixes"/><p><l>هشت</l><r>هشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>هشته</l><r>هشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>هشته</l><r>هشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>هلان</l><r>هشتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>هل</l><r>هشتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>هل</l><r>هشتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1644,7 +1634,7 @@
 </pardef>
 <pardef n="/VERBS__نیوشید">
                         <e><par n="P__prefixes"/><p><l>نیوشید</l><r>نیوشیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نیوشیده</l><r>نیوشیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نیوشیده</l><r>نیوشیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نیوشان</l><r>نیوشیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نیوش</l><r>نیوشیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نیوش</l><r>نیوشیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1653,7 +1643,7 @@
 </pardef>
 <pardef n="/VERBS__نیوشاند">
                         <e><par n="P__prefixes"/><p><l>نیوشاند</l><r>نیوشاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نیوشانده</l><r>نیوشاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نیوشانده</l><r>نیوشاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نیوشانان</l><r>نیوشاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نیوشان</l><r>نیوشاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نیوشان</l><r>نیوشاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1662,7 +1652,7 @@
 </pardef>
 <pardef n="/VERBS__نگریست">
                         <e><par n="P__prefixes"/><p><l>نگریست</l><r>نگریستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نگریسته</l><r>نگریستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نگریسته</l><r>نگریستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نگران</l><r>نگریستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نگر</l><r>نگریستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نگر</l><r>نگریستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1671,7 +1661,7 @@
 </pardef>
 <pardef n="/VERBS__نگارید">
                         <e><par n="P__prefixes"/><p><l>نگارید</l><r>نگاریدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نگاریده</l><r>نگاریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نگاریده</l><r>نگاریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نگاران</l><r>نگاریدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نگار</l><r>نگاریدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نگار</l><r>نگاریدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1680,7 +1670,7 @@
 </pardef>
 <pardef n="/VERBS__نوشید">
                         <e><par n="P__prefixes"/><p><l>نوشید</l><r>نوشیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نوشیده</l><r>نوشیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نوشیده</l><r>نوشیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نوشان</l><r>نوشیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نوش</l><r>نوشیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نوش</l><r>نوشیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1689,7 +1679,7 @@
 </pardef>
 <pardef n="/VERBS__نوشت">
                         <e><par n="P__prefixes"/><p><l>نوشت</l><r>نوشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نوشته</l><r>نوشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نوشته</l><r>نوشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نویسان</l><r>نوشتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نویس</l><r>نوشتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نویس</l><r>نوشتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1698,7 +1688,7 @@
 </pardef>
 <pardef n="/VERBS__نوشاند">
                         <e><par n="P__prefixes"/><p><l>نوشاند</l><r>نوشاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نوشانده</l><r>نوشاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نوشانده</l><r>نوشاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نوشانان</l><r>نوشاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نوشان</l><r>نوشاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نوشان</l><r>نوشاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1707,7 +1697,7 @@
 </pardef>
 <pardef n="/VERBS__نوازاند">
                         <e><par n="P__prefixes"/><p><l>نوازاند</l><r>نوازاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نوازانده</l><r>نوازاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نوازانده</l><r>نوازاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نوازانان</l><r>نوازاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نوازان</l><r>نوازاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نوازان</l><r>نوازاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1716,7 +1706,7 @@
 </pardef>
 <pardef n="/VERBS__نواخت">
                         <e><par n="P__prefixes"/><p><l>نواخت</l><r>نواختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نواخته</l><r>نواختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نواخته</l><r>نواختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نوازان</l><r>نواختن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نواز</l><r>نواختن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نواز</l><r>نواختن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1725,7 +1715,7 @@
 </pardef>
 <pardef n="/VERBS__نهفت">
                         <e><par n="P__prefixes"/><p><l>نهفت</l><r>نهفتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نهفته</l><r>نهفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نهفته</l><r>نهفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نهفتان</l><r>نهفتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نهفت</l><r>نهفتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نهفت</l><r>نهفتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1734,7 +1724,7 @@
 </pardef>
 <pardef n="/VERBS__نهاند">
                         <e><par n="P__prefixes"/><p><l>نهاند</l><r>نهاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نهانده</l><r>نهاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نهانده</l><r>نهاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نهانان</l><r>نهاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نهان</l><r>نهاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نهان</l><r>نهاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1743,7 +1733,7 @@
 </pardef>
 <pardef n="/VERBS__نهاد">
                         <e><par n="P__prefixes"/><p><l>نهاد</l><r>نهادن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نهاده</l><r>نهادن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نهاده</l><r>نهادن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نهان</l><r>نهادن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نه</l><r>نهادن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نه</l><r>نهادن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1752,7 +1742,7 @@
 </pardef>
 <pardef n="/VERBS__نمود">
                         <e><par n="P__prefixes"/><p><l>نمود</l><r>نمودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نموده</l><r>نمودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نموده</l><r>نمودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نماان</l><r>نمودن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نمای</l><r>نمودن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نمای</l><r>نمودن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1761,7 +1751,7 @@
 </pardef>
 <pardef n="/VERBS__نشست">
                         <e><par n="P__prefixes"/><p><l>نشست</l><r>نشستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نشسته</l><r>نشستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نشسته</l><r>نشستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نشینان</l><r>نشستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نشین</l><r>نشستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نشین</l><r>نشستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1770,7 +1760,7 @@
 </pardef>
 <pardef n="/VERBS__نشانید">
                         <e><par n="P__prefixes"/><p><l>نشانید</l><r>نشانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نشانیده</l><r>نشانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نشانیده</l><r>نشانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نشانان</l><r>نشانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نشان</l><r>نشانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نشان</l><r>نشانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1779,7 +1769,7 @@
 </pardef>
 <pardef n="/VERBS__نشاند">
                         <e><par n="P__prefixes"/><p><l>نشاند</l><r>نشاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نشانده</l><r>نشاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نشانده</l><r>نشاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نشانان</l><r>نشاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نشان</l><r>نشاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نشان</l><r>نشاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1788,7 +1778,7 @@
 </pardef>
 <pardef n="/VERBS__نشاست">
                         <e><par n="P__prefixes"/><p><l>نشاست</l><r>نشاستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نشاسته</l><r>نشاستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نشاسته</l><r>نشاستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نشانان</l><r>نشاستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>نشان</l><r>نشاستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>نشان</l><r>نشاستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1797,7 +1787,7 @@
 </pardef>
 <pardef n="/VERBS__نازید">
                         <e><par n="P__prefixes"/><p><l>نازید</l><r>نازیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>نازیده</l><r>نازیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>نازیده</l><r>نازیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>نازان</l><r>نازیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ناز</l><r>نازیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ناز</l><r>نازیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1806,7 +1796,7 @@
 </pardef>
 <pardef n="/VERBS__مرد">
                         <e><par n="P__prefixes"/><p><l>مرد</l><r>مردن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>مرده</l><r>مردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>مرده</l><r>مردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>میران</l><r>مردن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>میر</l><r>مردن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>میر</l><r>مردن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1815,7 +1805,7 @@
 </pardef>
 <pardef n="/VERBS__مانست">
                         <e><par n="P__prefixes"/><p><l>مانست</l><r>مانستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>مانسته</l><r>مانستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>مانسته</l><r>مانستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>مانان</l><r>مانستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>مان</l><r>مانستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>مان</l><r>مانستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1824,7 +1814,7 @@
 </pardef>
 <pardef n="/VERBS__ماند">
                         <e><par n="P__prefixes"/><p><l>ماند</l><r>ماندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>مانده</l><r>ماندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>مانده</l><r>ماندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>مانان</l><r>ماندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>مان</l><r>ماندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>مان</l><r>ماندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1833,7 +1823,7 @@
 </pardef>
 <pardef n="/VERBS__مالید">
                         <e><par n="P__prefixes"/><p><l>مالید</l><r>مالیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>مالیده</l><r>مالیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>مالیده</l><r>مالیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>مالان</l><r>مالیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>مال</l><r>مالیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>مال</l><r>مالیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1842,7 +1832,7 @@
 </pardef>
 <pardef n="/VERBS__مالانید">
                         <e><par n="P__prefixes"/><p><l>مالانید</l><r>مالانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>مالانیده</l><r>مالانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>مالانیده</l><r>مالانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>مالانان</l><r>مالانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>مالان</l><r>مالانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>مالان</l><r>مالانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1851,7 +1841,7 @@
 </pardef>
 <pardef n="/VERBS__مالاند">
                         <e><par n="P__prefixes"/><p><l>مالاند</l><r>مالاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>مالانده</l><r>مالاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>مالانده</l><r>مالاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>مالانان</l><r>مالاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>مالان</l><r>مالاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>مالان</l><r>مالاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1860,7 +1850,7 @@
 </pardef>
 <pardef n="/VERBS__فکند">
                         <e><par n="P__prefixes"/><p><l>فکند</l><r>فکندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فکنده</l><r>فکندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فکنده</l><r>فکندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فکنان</l><r>فکندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فکن</l><r>فکندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فکن</l><r>فکندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1869,7 +1859,7 @@
 </pardef>
 <pardef n="/VERBS__فهمید">
                         <e><par n="P__prefixes"/><p><l>فهمید</l><r>فهمیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فهمیده</l><r>فهمیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فهمیده</l><r>فهمیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فهمان</l><r>فهمیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فهم</l><r>فهمیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فهم</l><r>فهمیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1878,7 +1868,7 @@
 </pardef>
 <pardef n="/VERBS__فهمانید">
                         <e><par n="P__prefixes"/><p><l>فهمانید</l><r>فهمانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فهمانیده</l><r>فهمانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فهمانیده</l><r>فهمانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فهمانان</l><r>فهمانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فهمان</l><r>فهمانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فهمان</l><r>فهمانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1887,7 +1877,7 @@
 </pardef>
 <pardef n="/VERBS__فهماند">
                         <e><par n="P__prefixes"/><p><l>فهماند</l><r>فهماندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فهمانده</l><r>فهماندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فهمانده</l><r>فهماندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فهمانان</l><r>فهماندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فهمان</l><r>فهماندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فهمان</l><r>فهماندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1896,7 +1886,7 @@
 </pardef>
 <pardef n="/VERBS__فشرد">
                         <e><par n="P__prefixes"/><p><l>فشرد</l><r>فشردن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فشرده</l><r>فشردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فشرده</l><r>فشردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فشاران</l><r>فشردن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فشار</l><r>فشردن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فشار</l><r>فشردن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1905,7 +1895,7 @@
 </pardef>
 <pardef n="/VERBS__فشارید">
                         <e><par n="P__prefixes"/><p><l>فشارید</l><r>فشاریدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فشاریده</l><r>فشاریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فشاریده</l><r>فشاریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فشاران</l><r>فشاریدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فشار</l><r>فشاریدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فشار</l><r>فشاریدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1914,7 +1904,7 @@
 </pardef>
 <pardef n="/VERBS__فشارانید">
                         <e><par n="P__prefixes"/><p><l>فشارانید</l><r>فشارانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فشارانیده</l><r>فشارانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فشارانیده</l><r>فشارانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فشارانان</l><r>فشارانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فشاران</l><r>فشارانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فشاران</l><r>فشارانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1923,7 +1913,7 @@
 </pardef>
 <pardef n="/VERBS__فشاراند">
                         <e><par n="P__prefixes"/><p><l>فشاراند</l><r>فشاراندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فشارانده</l><r>فشاراندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فشارانده</l><r>فشاراندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فشارانان</l><r>فشاراندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فشاران</l><r>فشاراندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فشاران</l><r>فشاراندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1932,7 +1922,7 @@
 </pardef>
 <pardef n="/VERBS__فرییباند">
                         <e><par n="P__prefixes"/><p><l>فرییباند</l><r>فرییباندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فرییبانده</l><r>فرییباندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فرییبانده</l><r>فرییباندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فریبانان</l><r>فرییباندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فریبان</l><r>فرییباندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فریبان</l><r>فرییباندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1941,7 +1931,7 @@
 </pardef>
 <pardef n="/VERBS__فریفت">
                         <e><par n="P__prefixes"/><p><l>فریفت</l><r>فریفتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فریفته</l><r>فریفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فریفته</l><r>فریفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فریبان</l><r>فریفتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فریب</l><r>فریفتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فریب</l><r>فریفتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1950,7 +1940,7 @@
 </pardef>
 <pardef n="/VERBS__فریبید">
                         <e><par n="P__prefixes"/><p><l>فریبید</l><r>فریبیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فریبیده</l><r>فریبیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فریبیده</l><r>فریبیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فریبان</l><r>فریبیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فریب</l><r>فریبیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فریب</l><r>فریبیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1959,7 +1949,7 @@
 </pardef>
 <pardef n="/VERBS__فریبانید">
                         <e><par n="P__prefixes"/><p><l>فریبانید</l><r>فریبانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فریبانیده</l><r>فریبانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فریبانیده</l><r>فریبانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فریبانان</l><r>فریبانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فریبان</l><r>فریبانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فریبان</l><r>فریبانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1968,7 +1958,7 @@
 </pardef>
 <pardef n="/VERBS__فریباند">
                         <e><par n="P__prefixes"/><p><l>فریباند</l><r>فریباندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فریبانده</l><r>فریباندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فریبانده</l><r>فریباندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فریبانان</l><r>فریباندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فریبان</l><r>فریباندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فریبان</l><r>فریباندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1977,7 +1967,7 @@
 </pardef>
 <pardef n="/VERBS__فرمود">
                         <e><par n="P__prefixes"/><p><l>فرمود</l><r>فرمودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فرموده</l><r>فرمودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فرموده</l><r>فرمودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فرمایان</l><r>فرمودن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فرمای</l><r>فرمودن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فرمای</l><r>فرمودن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1986,7 +1976,7 @@
 </pardef>
 <pardef n="/VERBS__فرغارید">
                         <e><par n="P__prefixes"/><p><l>فرغارید</l><r>فرغاریدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فرغاریده</l><r>فرغاریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فرغاریده</l><r>فرغاریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فرغاران</l><r>فرغاریدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فرغار</l><r>فرغاریدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فرغار</l><r>فرغاریدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -1995,7 +1985,7 @@
 </pardef>
 <pardef n="/VERBS__فرستاد">
                         <e><par n="P__prefixes"/><p><l>فرستاد</l><r>فرستادن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>فرستاده</l><r>فرستادن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>فرستاده</l><r>فرستادن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>فرستان</l><r>فرستادن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>فرست</l><r>فرستادن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>فرست</l><r>فرستادن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2004,7 +1994,7 @@
 </pardef>
 <pardef n="/VERBS__شکست">
                         <e><par n="P__prefixes"/><p><l>شکست</l><r>شکستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شکسته</l><r>شکستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شکسته</l><r>شکستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شکنان</l><r>شکستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شکن</l><r>شکستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شکن</l><r>شکستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2013,7 +2003,7 @@
 </pardef>
 <pardef n="/VERBS__شنید">
                         <e><par n="P__prefixes"/><p><l>شنید</l><r>شنیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شنیده</l><r>شنیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شنیده</l><r>شنیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شنوان</l><r>شنیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شنو</l><r>شنیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شنو</l><r>شنیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2022,7 +2012,7 @@
 </pardef>
 <pardef n="/VERBS__شنواند">
                         <e><par n="P__prefixes"/><p><l>شنواند</l><r>شنواندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شنوانده</l><r>شنواندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شنوانده</l><r>شنواندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شنوانان</l><r>شنواندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شنوان</l><r>شنواندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شنوان</l><r>شنواندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2031,7 +2021,7 @@
 </pardef>
 <pardef n="/VERBS__شنفت">
                         <e><par n="P__prefixes"/><p><l>شنفت</l><r>شنفتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شنفته</l><r>شنفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شنفته</l><r>شنفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شنوان</l><r>شنفتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شنو</l><r>شنفتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شنو</l><r>شنفتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2040,7 +2030,7 @@
 </pardef>
 <pardef n="/VERBS__شناسانید">
                         <e><par n="P__prefixes"/><p><l>شناسانید</l><r>شناسانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شناسانیده</l><r>شناسانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شناسانیده</l><r>شناسانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شناسانان</l><r>شناسانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شناسان</l><r>شناسانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شناسان</l><r>شناسانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2049,7 +2039,7 @@
 </pardef>
 <pardef n="/VERBS__شناساند">
                         <e><par n="P__prefixes"/><p><l>شناساند</l><r>شناساندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شناسانده</l><r>شناساندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شناسانده</l><r>شناساندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شناسانان</l><r>شناساندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شناسان</l><r>شناساندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شناسان</l><r>شناساندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2058,7 +2048,7 @@
 </pardef>
 <pardef n="/VERBS__شناخت">
                         <e><par n="P__prefixes"/><p><l>شناخت</l><r>شناختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شناخته</l><r>شناختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شناخته</l><r>شناختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شناسان</l><r>شناختن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شناس</l><r>شناختن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شناس</l><r>شناختن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2067,7 +2057,7 @@
 </pardef>
 <pardef n="/VERBS__شمرد">
                         <e><par n="P__prefixes"/><p><l>شمرد</l><r>شمردن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شمرده</l><r>شمردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شمرده</l><r>شمردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شماران</l><r>شمردن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شمار</l><r>شمردن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شمار</l><r>شمردن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2076,7 +2066,7 @@
 </pardef>
 <pardef n="/VERBS__شست">
                         <e><par n="P__prefixes"/><p><l>شست</l><r>شستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شسته</l><r>شستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شسته</l><r>شستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شویان</l><r>شستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شوی</l><r>شستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شوی</l><r>شستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2085,7 +2075,7 @@
 </pardef>
 <pardef n="/VERBS__شتافت">
                         <e><par n="P__prefixes"/><p><l>شتافت</l><r>شتافتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شتافته</l><r>شتافتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شتافته</l><r>شتافتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شتابان</l><r>شتافتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شتاب</l><r>شتافتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شتاب</l><r>شتافتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2094,7 +2084,7 @@
 </pardef>
 <pardef n="/VERBS__شتابید">
                         <e><par n="P__prefixes"/><p><l>شتابید</l><r>شتابیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شتابیده</l><r>شتابیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شتابیده</l><r>شتابیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شتابان</l><r>شتابیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شتاب</l><r>شتابیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شتاب</l><r>شتابیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2103,7 +2093,7 @@
 </pardef>
 <pardef n="/VERBS__شایید">
                         <e><par n="P__prefixes"/><p><l>شایید</l><r>شاییدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شاییده</l><r>شاییدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شاییده</l><r>شاییدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شاان</l><r>شاییدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شا</l><r>شاییدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شا</l><r>شاییدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2112,7 +2102,7 @@
 </pardef>
 <pardef n="/VERBS__شایست">
                         <e><par n="P__prefixes"/><p><l>شایست</l><r>شایستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>شایسته</l><r>شایستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>شایسته</l><r>شایستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>شاان</l><r>شایستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>شا</l><r>شایستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>شا</l><r>شایستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2121,7 +2111,7 @@
 </pardef>
 <pardef n="/VERBS__سپرد">
                         <e><par n="P__prefixes"/><p><l>سپرد</l><r>سپردن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>سپرده</l><r>سپردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>سپرده</l><r>سپردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>سپران</l><r>سپردن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>سپر</l><r>سپردن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>سپر</l><r>سپردن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2130,7 +2120,7 @@
 </pardef>
 <pardef n="/VERBS__سوزاند">
                         <e><par n="P__prefixes"/><p><l>سوزاند</l><r>سوزاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>سوزانده</l><r>سوزاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>سوزانده</l><r>سوزاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>سوزانان</l><r>سوزاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>سوزان</l><r>سوزاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>سوزان</l><r>سوزاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2139,7 +2129,7 @@
 </pardef>
 <pardef n="/VERBS__سوخت">
                         <e><par n="P__prefixes"/><p><l>سوخت</l><r>سوختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>سوخته</l><r>سوختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>سوخته</l><r>سوختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>سوزان</l><r>سوختن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>سوز</l><r>سوختن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>سوز</l><r>سوختن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2148,7 +2138,7 @@
 </pardef>
 <pardef n="/VERBS__سرود">
                         <e><par n="P__prefixes"/><p><l>سرود</l><r>سرودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>سروده</l><r>سرودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>سروده</l><r>سرودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>سراان</l><r>سرودن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>سرا</l><r>سرودن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>سرا</l><r>سرودن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2157,7 +2147,7 @@
 </pardef>
 <pardef n="/VERBS__سرشت">
                         <e><par n="P__prefixes"/><p><l>سرشت</l><r>سرشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>سرشته</l><r>سرشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>سرشته</l><r>سرشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>سریشیدنان</l><r>سرشتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>سریشیدن</l><r>سرشتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>سریشیدن</l><r>سرشتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2166,7 +2156,7 @@
 </pardef>
 <pardef n="/VERBS__سرایید">
                         <e><par n="P__prefixes"/><p><l>سرایید</l><r>سراییدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>سراییده</l><r>سراییدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>سراییده</l><r>سراییدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>سراان</l><r>سراییدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>سرای</l><r>سراییدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>سرای</l><r>سراییدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2175,7 +2165,7 @@
 </pardef>
 <pardef n="/VERBS__ستود">
                         <e><par n="P__prefixes"/><p><l>ستود</l><r>ستودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>ستوده</l><r>ستودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>ستوده</l><r>ستودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>ستاان</l><r>ستودن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ستای</l><r>ستودن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ستای</l><r>ستودن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2184,7 +2174,7 @@
 </pardef>
 <pardef n="/VERBS__ستانید">
                         <e><par n="P__prefixes"/><p><l>ستانید</l><r>ستانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>ستانیده</l><r>ستانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>ستانیده</l><r>ستانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>ستانان</l><r>ستانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ستان</l><r>ستانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ستان</l><r>ستانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2193,7 +2183,7 @@
 </pardef>
 <pardef n="/VERBS__ستاند">
                         <e><par n="P__prefixes"/><p><l>ستاند</l><r>ستاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>ستانده</l><r>ستاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>ستانده</l><r>ستاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>ستانان</l><r>ستاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ستان</l><r>ستاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ستان</l><r>ستاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2202,7 +2192,7 @@
 </pardef>
 <pardef n="/VERBS__ساخت">
                         <e><par n="P__prefixes"/><p><l>ساخت</l><r>ساختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>ساخته</l><r>ساختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>ساخته</l><r>ساختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>سازان</l><r>ساختن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ساز</l><r>ساختن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ساز</l><r>ساختن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2211,7 +2201,7 @@
 </pardef>
 <pardef n="/VERBS__زیست">
                         <e><par n="P__prefixes"/><p><l>زیست</l><r>زیستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>زیسته</l><r>زیستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>زیسته</l><r>زیستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>زیان</l><r>زیستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>زی</l><r>زیستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>زی</l><r>زیستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2220,7 +2210,7 @@
 </pardef>
 <pardef n="/VERBS__زید">
                         <e><par n="P__prefixes"/><p><l>زید</l><r>زیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>زیده</l><r>زیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>زیده</l><r>زیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>زیان</l><r>زیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>زی</l><r>زیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>زی</l><r>زیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2229,7 +2219,7 @@
 </pardef>
 <pardef n="/VERBS__زدود">
                         <e><par n="P__prefixes"/><p><l>زدود</l><r>زدودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>زدوده</l><r>زدودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>زدوده</l><r>زدودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>زداان</l><r>زدودن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>زدای</l><r>زدودن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>زدای</l><r>زدودن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2238,7 +2228,7 @@
 </pardef>
 <pardef n="/VERBS__زد">
                         <e><par n="P__prefixes"/><p><l>زد</l><r>زدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>زده</l><r>زدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>زده</l><r>زدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>زنان</l><r>زدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>زن</l><r>زدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>زن</l><r>زدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2247,7 +2237,7 @@
 </pardef>
 <pardef n="/VERBS__زایید">
                         <e><par n="P__prefixes"/><p><l>زایید</l><r>زاییدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>زاییده</l><r>زاییدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>زاییده</l><r>زاییدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>زاان</l><r>زاییدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>زای</l><r>زاییدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>زای</l><r>زاییدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2256,7 +2246,7 @@
 </pardef>
 <pardef n="/VERBS__زایاند">
                         <e><par n="P__prefixes"/><p><l>زایاند</l><r>زایاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>زایانده</l><r>زایاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>زایانده</l><r>زایاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>زایانان</l><r>زایاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>زایان</l><r>زایاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>زایان</l><r>زایاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2265,7 +2255,7 @@
 </pardef>
 <pardef n="/VERBS__زاد">
                         <e><par n="P__prefixes"/><p><l>زاد</l><r>زادن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>زاده</l><r>زادن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>زاده</l><r>زادن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>زاان</l><r>زادن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>زای</l><r>زادن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>زای</l><r>زادن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2274,7 +2264,7 @@
 </pardef>
 <pardef n="/VERBS__ریسید">
                         <e><par n="P__prefixes"/><p><l>ریسید</l><r>ریسیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>ریسیده</l><r>ریسیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>ریسیده</l><r>ریسیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>ریسان</l><r>ریسیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ریس</l><r>ریسیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ریس</l><r>ریسیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2283,7 +2273,7 @@
 </pardef>
 <pardef n="/VERBS__ریزانید">
                         <e><par n="P__prefixes"/><p><l>ریزانید</l><r>ریزانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>ریزانیده</l><r>ریزانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>ریزانیده</l><r>ریزانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>ریزانان</l><r>ریزانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ریزان</l><r>ریزانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ریزان</l><r>ریزانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2292,7 +2282,7 @@
 </pardef>
 <pardef n="/VERBS__ریزاند">
                         <e><par n="P__prefixes"/><p><l>ریزاند</l><r>ریزاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>ریزانده</l><r>ریزاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>ریزانده</l><r>ریزاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>ریزانان</l><r>ریزاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ریزان</l><r>ریزاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ریزان</l><r>ریزاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2301,7 +2291,7 @@
 </pardef>
 <pardef n="/VERBS__ریخت">
                         <e><par n="P__prefixes"/><p><l>ریخت</l><r>ریختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>ریخته</l><r>ریختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>ریخته</l><r>ریختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>ریزان</l><r>ریختن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ریز</l><r>ریختن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ریز</l><r>ریختن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2310,7 +2300,7 @@
 </pardef>
 <pardef n="/VERBS__رنجید">
                         <e><par n="P__prefixes"/><p><l>رنجید</l><r>رنجیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>رنجیده</l><r>رنجیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>رنجیده</l><r>رنجیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>رنجان</l><r>رنجیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>رنج</l><r>رنجیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>رنج</l><r>رنجیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2319,7 +2309,7 @@
 </pardef>
 <pardef n="/VERBS__رنجانید">
                         <e><par n="P__prefixes"/><p><l>رنجانید</l><r>رنجانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>رنجانیده</l><r>رنجانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>رنجانیده</l><r>رنجانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>رنجانان</l><r>رنجانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>رنجان</l><r>رنجانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>رنجان</l><r>رنجانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2328,7 +2318,7 @@
 </pardef>
 <pardef n="/VERBS__رنجاند">
                         <e><par n="P__prefixes"/><p><l>رنجاند</l><r>رنجاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>رنجانده</l><r>رنجاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>رنجانده</l><r>رنجاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>رنجانان</l><r>رنجاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>رنجان</l><r>رنجاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>رنجان</l><r>رنجاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2337,7 +2327,7 @@
 </pardef>
 <pardef n="/VERBS__رفت">
                         <e><par n="P__prefixes"/><p><l>رفت</l><r>رفتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>رفته</l><r>رفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>رفته</l><r>رفتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>روان</l><r>رفتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>رو</l><r>رفتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>رو</l><r>رفتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2346,7 +2336,7 @@
 </pardef>
 <pardef n="/VERBS__رشت">
                         <e><par n="P__prefixes"/><p><l>رشت</l><r>رشتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>رشته</l><r>رشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>رشته</l><r>رشتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>ریسان</l><r>رشتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ریس</l><r>رشتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ریس</l><r>رشتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2355,7 +2345,7 @@
 </pardef>
 <pardef n="/VERBS__رسید">
                         <e><par n="P__prefixes"/><p><l>رسید</l><r>رسیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>رسیده</l><r>رسیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>رسیده</l><r>رسیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>رسان</l><r>رسیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>رس</l><r>رسیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>رس</l><r>رسیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2364,7 +2354,7 @@
 </pardef>
 <pardef n="/VERBS__ربود">
                         <e><par n="P__prefixes"/><p><l>ربود</l><r>ربودن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>ربوده</l><r>ربودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>ربوده</l><r>ربودن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>رباان</l><r>ربودن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ربای</l><r>ربودن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ربای</l><r>ربودن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2373,7 +2363,7 @@
 </pardef>
 <pardef n="/VERBS__رانید">
                         <e><par n="P__prefixes"/><p><l>رانید</l><r>رانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>رانیده</l><r>رانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>رانیده</l><r>رانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>رانان</l><r>رانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ران</l><r>رانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ران</l><r>رانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2382,7 +2372,7 @@
 </pardef>
 <pardef n="/VERBS__راند">
                         <e><par n="P__prefixes"/><p><l>راند</l><r>راندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>رانده</l><r>راندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>رانده</l><r>راندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>رانان</l><r>راندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ران</l><r>راندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ران</l><r>راندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2391,7 +2381,7 @@
 </pardef>
 <pardef n="/VERBS__درید">
                         <e><par n="P__prefixes"/><p><l>درید</l><r>دریدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>دریده</l><r>دریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>دریده</l><r>دریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>دران</l><r>دریدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>در</l><r>دریدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>در</l><r>دریدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2400,7 +2390,7 @@
 </pardef>
 <pardef n="/VERBS__درانید">
                         <e><par n="P__prefixes"/><p><l>درانید</l><r>درانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>درانیده</l><r>درانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>درانیده</l><r>درانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>درانان</l><r>درانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>دران</l><r>درانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>دران</l><r>درانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2409,7 +2399,7 @@
 </pardef>
 <pardef n="/VERBS__دراند">
                         <e><par n="P__prefixes"/><p><l>دراند</l><r>دراندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>درانده</l><r>دراندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>درانده</l><r>دراندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>درانان</l><r>دراندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>دران</l><r>دراندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>دران</l><r>دراندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2418,7 +2408,7 @@
 </pardef>
 <pardef n="/VERBS__دانست">
                         <e><par n="P__prefixes"/><p><l>دانست</l><r>دانستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>دانسته</l><r>دانستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>دانسته</l><r>دانستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>دانان</l><r>دانستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>دان</l><r>دانستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>دان</l><r>دانستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2427,7 +2417,7 @@
 </pardef>
 <pardef n="/VERBS__داد">
                         <e><par n="P__prefixes"/><p><l>داد</l><r>دادن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>داده</l><r>دادن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>داده</l><r>دادن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>دهان</l><r>دادن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>ده</l><r>دادن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>ده</l><r>دادن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2436,7 +2426,7 @@
 </pardef>
 <pardef n="/VERBS__خیزید">
                         <e><par n="P__prefixes"/><p><l>خیزید</l><r>خیزیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خیزیده</l><r>خیزیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خیزیده</l><r>خیزیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خیزان</l><r>خیزیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خیز</l><r>خیزیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خیز</l><r>خیزیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2445,7 +2435,7 @@
 </pardef>
 <pardef n="/VERBS__خیزانید">
                         <e><par n="P__prefixes"/><p><l>خیزانید</l><r>خیزانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خیزانیده</l><r>خیزانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خیزانیده</l><r>خیزانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خیزانان</l><r>خیزانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خیزان</l><r>خیزانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خیزان</l><r>خیزانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2454,7 +2444,7 @@
 </pardef>
 <pardef n="/VERBS__خیزاند">
                         <e><par n="P__prefixes"/><p><l>خیزاند</l><r>خیزاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خیزانده</l><r>خیزاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خیزانده</l><r>خیزاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خیزانان</l><r>خیزاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خیزان</l><r>خیزاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خیزان</l><r>خیزاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2463,7 +2453,7 @@
 </pardef>
 <pardef n="/VERBS__خورد">
                         <e><par n="P__prefixes"/><p><l>خورد</l><r>خوردن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خورده</l><r>خوردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خورده</l><r>خوردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خوران</l><r>خوردن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خور</l><r>خوردن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خور</l><r>خوردن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2472,7 +2462,7 @@
 </pardef>
 <pardef n="/VERBS__خورانید">
                         <e><par n="P__prefixes"/><p><l>خورانید</l><r>خورانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خورانیده</l><r>خورانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خورانیده</l><r>خورانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خورانان</l><r>خورانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خوران</l><r>خورانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خوران</l><r>خورانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2481,7 +2471,7 @@
 </pardef>
 <pardef n="/VERBS__خوراند">
                         <e><par n="P__prefixes"/><p><l>خوراند</l><r>خوراندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خورانده</l><r>خوراندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خورانده</l><r>خوراندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خورانان</l><r>خوراندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خوران</l><r>خوراندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خوران</l><r>خوراندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2490,7 +2480,7 @@
 </pardef>
 <pardef n="/VERBS__خواند">
                         <e><par n="P__prefixes"/><p><l>خواند</l><r>خواندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خوانده</l><r>خواندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خوانده</l><r>خواندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خوانان</l><r>خواندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خوان</l><r>خواندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خوان</l><r>خواندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2499,7 +2489,7 @@
 </pardef>
 <pardef n="/VERBS__خواست">
                         <e><par n="P__prefixes"/><p><l>خواست</l><r>خواستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خواسته</l><r>خواستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خواسته</l><r>خواستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خواهان</l><r>خواستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خواه</l><r>خواستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خواه</l><r>خواستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2508,7 +2498,7 @@
 </pardef>
 <pardef n="/VERBS__خوابید">
                         <e><par n="P__prefixes"/><p><l>خوابید</l><r>خوابیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خوابیده</l><r>خوابیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خوابیده</l><r>خوابیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خوابان</l><r>خوابیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خواب</l><r>خوابیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خواب</l><r>خوابیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2517,7 +2507,7 @@
 </pardef>
 <pardef n="/VERBS__خوابانید">
                         <e><par n="P__prefixes"/><p><l>خوابانید</l><r>خوابانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خوابانیده</l><r>خوابانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خوابانیده</l><r>خوابانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خوابانان</l><r>خوابانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خوابان</l><r>خوابانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خوابان</l><r>خوابانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2526,7 +2516,7 @@
 </pardef>
 <pardef n="/VERBS__خواباند">
                         <e><par n="P__prefixes"/><p><l>خواباند</l><r>خواباندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خوابانده</l><r>خواباندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خوابانده</l><r>خواباندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خوابانان</l><r>خواباندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خوابان</l><r>خواباندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خوابان</l><r>خواباندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2535,7 +2525,7 @@
 </pardef>
 <pardef n="/VERBS__خرید">
                         <e><par n="P__prefixes"/><p><l>خرید</l><r>خریدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خریده</l><r>خریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خریده</l><r>خریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خران</l><r>خریدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خر</l><r>خریدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خر</l><r>خریدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2544,7 +2534,7 @@
 </pardef>
 <pardef n="/VERBS__خاست">
                         <e><par n="P__prefixes"/><p><l>خاست</l><r>خاستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>خاسته</l><r>خاستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>خاسته</l><r>خاستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>خیزان</l><r>خاستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>خیز</l><r>خاستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>خیز</l><r>خاستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2553,7 +2543,7 @@
 </pardef>
 <pardef n="/VERBS__تپید">
                         <e><par n="P__prefixes"/><p><l>تپید</l><r>تپیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>تپیده</l><r>تپیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>تپیده</l><r>تپیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>تپان</l><r>تپیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>تپ</l><r>تپیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>تپ</l><r>تپیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2562,7 +2552,7 @@
 </pardef>
 <pardef n="/VERBS__تپانید">
                         <e><par n="P__prefixes"/><p><l>تپانید</l><r>تپانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>تپانیده</l><r>تپانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>تپانیده</l><r>تپانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>تپانان</l><r>تپانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>تپان</l><r>تپانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>تپان</l><r>تپانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2571,7 +2561,7 @@
 </pardef>
 <pardef n="/VERBS__تپاند">
                         <e><par n="P__prefixes"/><p><l>تپاند</l><r>تپاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>تپانده</l><r>تپاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>تپانده</l><r>تپاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>تپانان</l><r>تپاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>تپان</l><r>تپاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>تپان</l><r>تپاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2580,7 +2570,7 @@
 </pardef>
 <pardef n="/VERBS__توانست">
                         <e><par n="P__prefixes"/><p><l>توانست</l><r>توانستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>توانسته</l><r>توانستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>توانسته</l><r>توانستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>توانان</l><r>توانستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>توان</l><r>توانستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>توان</l><r>توانستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2589,7 +2579,7 @@
 </pardef>
 <pardef n="/VERBS__تافت">
                         <e><par n="P__prefixes"/><p><l>تافت</l><r>تافتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>تافته</l><r>تافتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>تافته</l><r>تافتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>تافان</l><r>تافتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>تاف</l><r>تافتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>تاف</l><r>تافتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2598,7 +2588,7 @@
 </pardef>
 <pardef n="/VERBS__تازانید">
                         <e><par n="P__prefixes"/><p><l>تازانید</l><r>تازانیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>تازانیده</l><r>تازانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>تازانیده</l><r>تازانیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>تازانان</l><r>تازانیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>تازان</l><r>تازانیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>تازان</l><r>تازانیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2607,7 +2597,7 @@
 </pardef>
 <pardef n="/VERBS__تازاند">
                         <e><par n="P__prefixes"/><p><l>تازاند</l><r>تازاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>تازانده</l><r>تازاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>تازانده</l><r>تازاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>تازانان</l><r>تازاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>تازان</l><r>تازاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>تازان</l><r>تازاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2616,7 +2606,7 @@
 </pardef>
 <pardef n="/VERBS__تاخت">
                         <e><par n="P__prefixes"/><p><l>تاخت</l><r>تاختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>تاخته</l><r>تاختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>تاخته</l><r>تاختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>تازان</l><r>تاختن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>تاز</l><r>تاختن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>تاز</l><r>تاختن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2625,7 +2615,7 @@
 </pardef>
 <pardef n="/VERBS__تابید">
                         <e><par n="P__prefixes"/><p><l>تابید</l><r>تابیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>تابیده</l><r>تابیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>تابیده</l><r>تابیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>تابان</l><r>تابیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>تاب</l><r>تابیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>تاب</l><r>تابیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2634,7 +2624,7 @@
 </pardef>
 <pardef n="/VERBS__تاباند">
                         <e><par n="P__prefixes"/><p><l>تاباند</l><r>تاباندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>تابانده</l><r>تاباندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>تابانده</l><r>تاباندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>تابانان</l><r>تاباندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>تابان</l><r>تاباندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>تابان</l><r>تاباندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2643,7 +2633,7 @@
 </pardef>
 <pardef n="/VERBS__بیزید">
                         <e><par n="P__prefixes"/><p><l>بیزید</l><r>بیزیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>بیزیده</l><r>بیزیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>بیزیده</l><r>بیزیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>بیزان</l><r>بیزیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>بیز</l><r>بیزیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>بیز</l><r>بیزیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2652,7 +2642,7 @@
 </pardef>
 <pardef n="/VERBS__بیخت">
                         <e><par n="P__prefixes"/><p><l>بیخت</l><r>بیختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>بیخته</l><r>بیختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>بیخته</l><r>بیختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>بیزان</l><r>بیختن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>بیز</l><r>بیختن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>بیز</l><r>بیختن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2661,7 +2651,7 @@
 </pardef>
 <pardef n="/VERBS__بست">
                         <e><par n="P__prefixes"/><p><l>بست</l><r>بستن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>بسته</l><r>بستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>بسته</l><r>بستن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>بندان</l><r>بستن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>بند</l><r>بستن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>بند</l><r>بستن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2670,7 +2660,7 @@
 </pardef>
 <pardef n="/VERBS__برید">
                         <e><par n="P__prefixes"/><p><l>برید</l><r>بریدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>بریده</l><r>بریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>بریده</l><r>بریدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>بران</l><r>بریدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>بر</l><r>بریدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>بر</l><r>بریدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2679,7 +2669,7 @@
 </pardef>
 <pardef n="/VERBS__برد">
                         <e><par n="P__prefixes"/><p><l>برد</l><r>بردن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>برده</l><r>بردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>برده</l><r>بردن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>بران</l><r>بردن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>بر</l><r>بردن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>بر</l><r>بردن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2688,7 +2678,7 @@
 </pardef>
 <pardef n="/VERBS__براند">
                         <e><par n="P__prefixes"/><p><l>براند</l><r>براندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>برانده</l><r>براندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>برانده</l><r>براندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>برانان</l><r>براندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>بران</l><r>براندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>بران</l><r>براندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2697,7 +2687,7 @@
 </pardef>
 <pardef n="/VERBS__بخشید">
                         <e><par n="P__prefixes"/><p><l>بخشید</l><r>بخشیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>بخشیده</l><r>بخشیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>بخشیده</l><r>بخشیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>بخشان</l><r>بخشیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>بخش</l><r>بخشیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>بخش</l><r>بخشیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2706,7 +2696,7 @@
 </pardef>
 <pardef n="/VERBS__بافید">
                         <e><par n="P__prefixes"/><p><l>بافید</l><r>بافیدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>بافیده</l><r>بافیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>بافیده</l><r>بافیدن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>بافان</l><r>بافیدن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>باف</l><r>بافیدن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>باف</l><r>بافیدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2715,7 +2705,7 @@
 </pardef>
 <pardef n="/VERBS__بافت">
                         <e><par n="P__prefixes"/><p><l>بافت</l><r>بافتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>بافته</l><r>بافتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>بافته</l><r>بافتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>بافان</l><r>بافتن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>باف</l><r>بافتن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>باف</l><r>بافتن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2724,7 +2714,7 @@
 </pardef>
 <pardef n="/VERBS__بافاند">
                         <e><par n="P__prefixes"/><p><l>بافاند</l><r>بافاندن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>بافانده</l><r>بافاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>بافانده</l><r>بافاندن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>بافانان</l><r>بافاندن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>بافان</l><r>بافاندن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>بافان</l><r>بافاندن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -2733,7 +2723,7 @@
 </pardef>
 <pardef n="/VERBS__باخت">
                         <e><par n="P__prefixes"/><p><l>باخت</l><r>باختن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__prefixes"/><p><l>باخته</l><r>باختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="aV__/استن__vbser"/></e>
+                        <e><par n="P__prefixes"/><p><l>باخته</l><r>باختن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
                         <e><par n="P__imp__prefixes"/><p><l>بازان</l><r>باختن<s n="vblex"/><s n="imp"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><par n="P__imp__prefixes"/><p><l>باز</l><r>باختن<s n="vblex"/><s n="imp"/></r></p><par n="imp_endings"/></e>
                         <e><par n="P__njprefixes"/><p><l>باز</l><r>باختن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
@@ -3157,7 +3147,7 @@
                             <e lm="اندودن"><i/><par n="/VERBS_vowel__نباشت"/></e>
 
 
-                            <e lm=""><i/><par n="aV__/استن__vbser"/></e>
+                            <e lm=""><i/><par n="perfect_endings"/></e>
 
 
     
