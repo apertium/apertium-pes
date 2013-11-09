@@ -863,12 +863,12 @@
     </pardef>
 
     <pardef n="perfect_endings">
-      <e><p><l>ه‌ام</l><r>بودن<s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ه‌ای</l><r>بودن<s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>ه‌است</l><r>بودن<s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ه‌ایم</l><r>بودن<s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>ه‌اید</l><r>بودن<s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>ه‌اند</l><r>بودن<s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ه‌ام</l><r><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ه‌ای</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ه‌است</l><r><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ه‌ایم</l><r><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ه‌اید</l><r><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ه‌اند</l><r><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="کرد/ن__vblex" c="preterite (past)">
