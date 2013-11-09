@@ -94,7 +94,8 @@
     <sdef n="me" c="me verb prefix"/>
     <sdef n="bi" c="bi verb prefix"/>
     <sdef n="cont" c="continuous verb prefix"/>
-    <sdef n="sbjv" c="subjunctive verb prefix"/>
+    <sdef n="pprf" c="present perfect verb"/>
+    
   </sdefs>
 <pardefs>
 
@@ -862,22 +863,24 @@
     </pardef>
 
     <pardef n="perfect_endings">
-      <e><p><l>ام</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p1"/><s n="sg"/></r></p></e>
-      <e><p><l>ای</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p2"/><s n="sg"/></r></p></e>
-      <e><p><l>است</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p3"/><s n="sg"/></r></p></e>
-      <e><p><l>ایم</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p1"/><s n="pl"/></r></p></e>
-      <e><p><l>اید</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
-      <e><p><l>اند</l><r>بودن<s n="vbser"/><s n="pri"/><s n="p3"/><s n="pl"/></r></p></e>
+      <e><p><l>ه‌ام</l><r>بودن<s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>ه‌ای</l><r>بودن<s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ه‌است</l><r>بودن<s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ه‌ایم</l><r>بودن<s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ه‌اید</l><r>بودن<s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ه‌اند</l><r>بودن<s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="کرد/ن__vblex" c="preterite (past)">
       <e><p><l></l><r>ن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
+      <e><p><l></l><r>ن<s n="vblex"/><s n="pprf"/></r></p><par n="perfect_endings"/></e>
       <e><p><l>ن</l><r>ن<s n="vblex"/><s n="inf"/></r></p></e>
       <e><p><l>ه</l><r>ن<s n="vblex"/><s n="pp"/></r></p></e>
     </pardef>
                             
     <pardef n="نکرد/ن__vblex" c="negative preterite (past)">
       <e><p><l></l><r>ن<s n="vblex"/><s n="neg"/><s n="past"/></r></p><par n="past_endings"/></e>
+      <e><p><l></l><r>ن<s n="vblex"/><s n="neg"/><s n="pprf"/></r></p><par n="perfect_endings"/></e>
       <e><p><l>ن</l><r>ن<s n="vblex"/><s n="neg"/><s n="inf"/></r></p></e>
       <e><p><l>ه</l><r>ن<s n="vblex"/><s n="neg"/><s n="pp"/></r></p></e>
     </pardef>
