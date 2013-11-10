@@ -921,7 +921,7 @@
       <e><p><l></l><r><s n="vblex"/><s n="prs"/></r></p><par n="pres_endings2"/></e>
     </pardef>
     
-    <pardef n="__vblex" c="negative subjunctive">
+    <pardef n="نکن__vblex" c="negative subjunctive">
       <e><p><l></l><r><s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="pres_endings"/></e>
       <e><p><l></l><r><s n="vblex"/><s n="neg"/><s n="imp"/></r></p><par n="imp_endings"/></e>
     </pardef>
