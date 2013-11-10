@@ -853,6 +853,12 @@
       <e><p><l>ید</l><r><s n="p2"/><s n="pl"/></r></p></e>
     </pardef>
 
+    <pardef n="imp_endings2" c="the attach to final stem vowels">
+      <e><p><l/><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>یید</l><r><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ئید</l><r><s n="p2"/><s n="pl"/></r></p></e>
+    </pardef>
+
     <pardef n="pres_endings">
       <e><p><l>م</l><r><s n="p1"/><s n="sg"/></r></p></e>
       <e><p><l>ی</l><r><s n="p2"/><s n="sg"/></r></p></e>
@@ -860,6 +866,18 @@
       <e><p><l>یم</l><r><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ید</l><r><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ند</l><r><s n="p3"/><s n="pl"/></r></p></e>
+    </pardef>
+
+    <pardef n="pres_endings2" c="the attach to final stem vowels">
+      <e><p><l>یم</l><r><s n="p1"/><s n="sg"/></r></p></e>
+      <e><p><l>یی</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ئی</l><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ید</l><r><s n="p3"/><s n="sg"/></r></p></e>
+      <e><p><l>ییم</l><r><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ئیم</l><r><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ید</l><r><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>ئید</l><r><s n="p2"/><s n="pl"/></r></p></e>
+      <e><p><l>یند</l><r><s n="p3"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="perfect_endings">
@@ -898,17 +916,35 @@
       <e><p><l></l><r><s n="vblex"/><s n="prs"/></r></p><par n="pres_endings"/></e>
     </pardef>
     
-    <pardef n="نکن__vblex" c="negative subjunctive">
+    <pardef n="بیا__vblex" c="subjunctive final stem vowel">
+      <e><p><l></l><r><s n="vblex"/><s n="imp"/></r></p><par n="imp_endings2"/></e>
+      <e><p><l></l><r><s n="vblex"/><s n="prs"/></r></p><par n="pres_endings2"/></e>
+    </pardef>
+    
+    <pardef n="__vblex" c="negative subjunctive">
       <e><p><l></l><r><s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="pres_endings"/></e>
       <e><p><l></l><r><s n="vblex"/><s n="neg"/><s n="imp"/></r></p><par n="imp_endings"/></e>
+    </pardef>
+                            
+    <pardef n="نیا__vblex" c="negative subjunctive final stem vowel">
+      <e><p><l></l><r><s n="vblex"/><s n="neg"/><s n="prs"/></r></p><par n="pres_endings2"/></e>
+      <e><p><l></l><r><s n="vblex"/><s n="neg"/><s n="imp"/></r></p><par n="imp_endings2"/></e>
     </pardef>
                             
     <pardef n="می‌کن__vblex" c="present">
       <e><p><l></l><r><s n="vblex"/><s n="cont"/><s n="pri"/></r></p><par n="pres_endings"/></e>
     </pardef>
     
+    <pardef n="می‌ا__vblex" c="present final stem vowel">
+      <e><p><l></l><r><s n="vblex"/><s n="cont"/><s n="pri"/></r></p><par n="pres_endings2"/></e>
+    </pardef>
+    
     <pardef n="نمی‌کن__vblex" c="negative present">
       <e><p><l></l><r><s n="vblex"/><s n="neg"/><s n="cont"/><s n="pri"/></r></p><par n="pres_endings"/></e>
+    </pardef>
+    
+    <pardef n="نمی‌ا__vblex" c="negative present final stem vowel">
+      <e><p><l></l><r><s n="vblex"/><s n="neg"/><s n="cont"/><s n="pri"/></r></p><par n="pres_endings2"/></e>
     </pardef>
     
 
@@ -971,7 +1007,7 @@
 
 
   
-<pardef n="/VERBS_vowel__ندوختن">
+<!--<pardef n="/VERBS_vowel__ندوختن">
                         <e><i>ا</i><p><l>ندوختن</l><r>ندوختنن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jnjprefixes"/><i>ا</i><p><l>ندوختن</l><r>ندوختنن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__jjprefixes"/><p><l>یاندوختن</l><r>اندوختنن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
@@ -1003,20 +1039,20 @@
                         <e><par n="P__jjprefixes"/><p><l>یانبار</l><r>انباشتن<s n="vblex"/><s n="prs"/></r></p><par n="pres_endings"/></e>
 
 </pardef>
-<pardef n="/VERBS_vowel__مد">
-                        <e><i>آ</i><p><l>مد</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__jnjprefixes"/><i>آ</i><p><l>مد</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یامد</l><r>آمدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
-                        <e><i>آ</i><p><l>مده</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
-                        <e><par n="P__jnjprefixes"/><i>آ</i><p><l>مده</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یامده</l><r>آمدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
-                        <e><i>آ</i><p><l/><r>مدن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
-                        <e><par n="Pjj__imp__prefixes"/><p><l>یا</l><r>آمدن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+<pardef n="/VERBS_vowel__مد"> need to handle pres w no be- suffix
+                        x<e><i>آ</i><p><l>مد</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
+                        x<e><par n="P__jnjprefixes"/><i>آ</i><p><l>مد</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
+                        x<e><par n="P__jjprefixes"/><p><l>یامد</l><r>آمدن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
+                        x<e><i>آ</i><p><l>مده</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        ?<e><par n="P__jnjprefixes"/><i>آ</i><p><l>مده</l><r>مدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        x<e><par n="P__jjprefixes"/><p><l>یامده</l><r>آمدن<s n="vblex"/><s n="past"/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
+                        ?<e><i>آ</i><p><l/><r>مدن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
+                        x<e><par n="Pjj__imp__prefixes"/><p><l>یا</l><r>آمدن<s n="vblex"/><s n="pii"/><s n="p2"/><s n="sg"/></r></p></e>
                         <e><i>آ</i><p><l>ی</l><r>مدن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
-                        <e><par n="Pjj__imp__prefixes"/><p><l>یای</l><r>آمدن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
-                        <e><i>آ</i><p><l>ی</l><r>مدن<s n="vblex"/><s n="prs"/></r></p><par n="pres_endings"/></e>
-                        <e><par n="P__ن"/><par n="P__jnjprefixes"/><i>آ</i><p><l>ی</l><r>مدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
-                        <e><par n="P__jjprefixes"/><p><l>یای</l><r>آمدن<s n="vblex"/><s n="prs"/></r></p><par n="pres_endings"/></e>
+                        x<e><par n="Pjj__imp__prefixes"/><p><l>یای</l><r>آمدن<s n="vblex"/><s n="pii"/></r></p><par n="imp_endings"/></e>
+                        x<e><i>آ</i><p><l>ی</l><r>مدن<s n="vblex"/><s n="prs"/></r></p><par n="pres_endings"/></e>
+                        x<e><par n="P__ن"/><par n="P__jnjprefixes"/><i>آ</i><p><l>ی</l><r>مدن<s n="vblex"/><s n="pri"/></r></p><par n="pres_endings"/></e>
+                        x<e><par n="P__jjprefixes"/><p><l>یای</l><r>آمدن<s n="vblex"/><s n="prs"/></r></p><par n="pres_endings"/></e>
 
 </pardef>
 <pardef n="/VERBS_vowel__فشرد">
@@ -1131,6 +1167,7 @@
                         <e><par n="P__jjprefixes"/><p><l>یازمای</l><r>آزمودن<s n="vblex"/><s n="prs"/></r></p><par n="pres_endings"/></e>
 
 </pardef>
+-->
 <pardef n="/VERBS__یافت">
                         <e><par n="P__prefixes"/><p><l>یافت</l><r>یافتن<s n="vblex"/><s n="past"/></r></p><par n="past_endings"/></e>
                         <e><par n="P__prefixes"/><p><l>یافته</l><r>یافتن<s n="vblex"/><s n="past"/><j/></r></p><par n="zwnj_or_space"/><par n="perfect_endings"/></e>
@@ -2902,6 +2939,136 @@
     <e lm="رفتن"><p><l>نمی‌رف</l><r>رفتن</r></p><par n="نمی‌کن__vblex"/></e>
     <e lm="رفتن" r="LR"><p><l>نمیرف</l><r>رفتن</r></p><par n="نمی‌کن__vblex"/></e>
     
+    <e lm="آمدن"><p><l>آمد</l><r>آمد</r></p><par n="کرد/ن__vblex"/></e>
+    <e lm="آمدن"><p><l>نیامد</l><r>آمد</r></p><par n="نکرد/ن__vblex"/></e>
+    <e lm="آمدن"><p><l>می‌آمد</l><r>آمد</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="آمدن" r="LR"><p><l>میآمد</l><r>آمد</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="آمدن"><p><l>نمی‌آمد</l><r>آمد</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="آمدن" r="LR"><p><l>نمیآمد</l><r>آمد</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="آمدن"><p><l>بیا</l><r>آمدن</r></p><par n="بیا__vblex"/></e>
+    <e lm="آمدن"><p><l>نیا</l><r>آمدن</r></p><par n="نیا__vblex"/></e>
+    <e lm="آمدن"><p><l>می‌ا</l><r>آمدن</r></p><par n="می‌ا__vblex"/></e>
+    <e lm="آمدن" r="LR"><p><l>میا</l><r>آمدن</r></p><par n="می‌ا__vblex"/></e>
+    <e lm="آمدن"><p><l>نمی‌ا</l><r>آمدن</r></p><par n="نمی‌ا__vblex"/></e>
+    <e lm="آمدن" r="LR"><p><l>نمیا</l><r>آمدن</r></p><par n="نمی‌ا__vblex"/></e>
+    
+    <e lm="اندوختن"><p><l>اندوخت</l><r>اندوخت</r></p><par n="کرد/ن__vblex"/></e>
+    <e lm="اندوختن"><p><l>نیاندوخت</l><r>اندوخت</r></p><par n="نکرد/ن__vblex"/></e>
+    <e lm="اندوختن"><p><l>می‌اندوخت</l><r>اندوخت</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="اندوختن" r="LR"><p><l>میاندوخت</l><r>اندوخت</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="اندوختن"><p><l>نمی‌اندوخت</l><r>اندوخت</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="اندوختن" r="LR"><p><l>نمیاندوخت</l><r>اندوخت</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="اندوختن"><p><l>بیاندوز</l><r>اندوختن</r></p><par n="بکن__vblex"/></e>             
+    <e lm="اندوختن"><p><l>نیاندوز</l><r>اندوختن</r></p><par n="نکن__vblex"/></e>             
+    <e lm="اندوختن"><p><l>می‌اندوز</l><r>اندوختن</r></p><par n="می‌کن__vblex"/></e>         
+    <e lm="اندوختن" r="LR"><p><l>میاندوز</l><r>اندوختن</r></p><par n="می‌کن__vblex"/></e>   
+    <e lm="اندوختن"><p><l>نمی‌اندوز</l><r>اندوختن</r></p><par n="نمی‌کن__vblex"/></e>       
+    <e lm="اندوختن" r="LR"><p><l>نمیاندوز</l><r>اندوختن</r></p><par n="نمی‌کن__vblex"/></e> 
+    
+    <e lm="انباشتن"><p><l>انباشت</l><r>انباشت</r></p><par n="کرد/ن__vblex"/></e>
+    <e lm="انباشتن"><p><l>نیانباشت</l><r>انباشت</r></p><par n="نکرد/ن__vblex"/></e>
+    <e lm="انباشتن"><p><l>می‌انباشت</l><r>انباشت</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="انباشتن" r="LR"><p><l>میانباشت</l><r>انباشت</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="انباشتن"><p><l>نمی‌انباشت</l><r>انباشت</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="انباشتن" r="LR"><p><l>نمیانباشت</l><r>انباشت</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="انباشتن"><p><l>بیانبار</l><r>انباشتن</r></p><par n="بکن__vblex"/></e>             
+    <e lm="انباشتن"><p><l>نیانبار</l><r>انباشتن</r></p><par n="نکن__vblex"/></e>             
+    <e lm="انباشتن"><p><l>می‌انبار</l><r>انباشتن</r></p><par n="می‌کن__vblex"/></e>         
+    <e lm="انباشتن" r="LR"><p><l>میانبار</l><r>انباشتن</r></p><par n="می‌کن__vblex"/></e>   
+    <e lm="انباشتن"><p><l>نمی‌انبار</l><r>انباشتن</r></p><par n="نمی‌کن__vblex"/></e>       
+    <e lm="انباشتن" r="LR"><p><l>نمیانبار</l><r>انباشتن</r></p><par n="نمی‌کن__vblex"/></e> 
+
+    <e lm="افشردن"><p><l>افشرد</l><r>افشرد</r></p><par n="کرد/ن__vblex"/></e>
+    <e lm="افشردن"><p><l>نیافشرد</l><r>افشرد</r></p><par n="نکرد/ن__vblex"/></e>
+    <e lm="افشردن"><p><l>می‌افشرد</l><r>افشرد</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="افشردن" r="LR"><p><l>میافشرد</l><r>افشرد</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="افشردن"><p><l>نمی‌افشرد</l><r>افشرد</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="افشردن" r="LR"><p><l>نمیافشرد</l><r>افشرد</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="افشردن"><p><l>بیافشر</l><r>افشردن</r></p><par n="بکن__vblex"/></e>             
+    <e lm="افشردن"><p><l>نیافشر</l><r>افشردن</r></p><par n="نکن__vblex"/></e>             
+    <e lm="افشردن"><p><l>می‌افشر</l><r>افشردن</r></p><par n="می‌کن__vblex"/></e>         
+    <e lm="افشردن" r="LR"><p><l>میافشر</l><r>افشردن</r></p><par n="می‌کن__vblex"/></e>   
+    <e lm="افشردن"><p><l>نمی‌افشر</l><r>افشردن</r></p><par n="نمی‌کن__vblex"/></e>       
+    <e lm="افشردن" r="LR"><p><l>نمیافشر</l><r>افشردن</r></p><par n="نمی‌کن__vblex"/></e> 
+    
+    <e lm="افزودن"><p><l>افزود</l><r>افزود</r></p><par n="کرد/ن__vblex"/></e>
+    <e lm="افزودن"><p><l>نیافزود</l><r>افزود</r></p><par n="نکرد/ن__vblex"/></e>
+    <e lm="افزودن"><p><l>می‌افزود</l><r>افزود</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="افزودن" r="LR"><p><l>میافزود</l><r>افزود</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="افزودن"><p><l>نمی‌افزود</l><r>افزود</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="افزودن" r="LR"><p><l>نمیافزود</l><r>افزود</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="افزودن"><p><l>بیافزا</l><r>افزودن</r></p><par n="بیا__vblex"/></e>
+    <e lm="افزودن"><p><l>نیافزا</l><r>افزودن</r></p><par n="نیا__vblex"/></e>
+    <e lm="افزودن"><p><l>می‌افزا</l><r>افزودن</r></p><par n="می‌ا__vblex"/></e>
+    <e lm="افزودن" r="LR"><p><l>میافزا</l><r>افزودن</r></p><par n="می‌ا__vblex"/></e>
+    <e lm="افزودن"><p><l>نمی‌افزا</l><r>افزودن</r></p><par n="نمی‌ا__vblex"/></e>
+    <e lm="افزودن" r="LR"><p><l>نمیافزا</l><r>افزودن</r></p><par n="نمی‌ا__vblex"/></e>
+    
+    <e lm="افروزاندن"><p><l>افروزاند</l><r>افروزاند</r></p><par n="کرد/ن__vblex"/></e>
+    <e lm="افروزاندن"><p><l>نیافروزاند</l><r>افروزاند</r></p><par n="نکرد/ن__vblex"/></e>
+    <e lm="افروزاندن"><p><l>می‌افروزاند</l><r>افروزاند</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="افروزاندن" r="LR"><p><l>میافروزاند</l><r>افروزاند</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="افروزاندن"><p><l>نمی‌افروزاند</l><r>افروزاند</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="افروزاندن" r="LR"><p><l>نمیافروزاند</l><r>افروزاند</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="افروزاندن"><p><l>بیافروزان</l><r>افروزاندن</r></p><par n="بکن__vblex"/></e>             
+    <e lm="افروزاندن"><p><l>نیافروزان</l><r>افروزاندن</r></p><par n="نکن__vblex"/></e>             
+    <e lm="افروزاندن"><p><l>می‌افروزان</l><r>افروزاندن</r></p><par n="می‌کن__vblex"/></e>         
+    <e lm="افروزاندن" r="LR"><p><l>میافروزان</l><r>افروزاندن</r></p><par n="می‌کن__vblex"/></e>   
+    <e lm="افروزاندن"><p><l>نمی‌افروزان</l><r>افروزاندن</r></p><par n="نمی‌کن__vblex"/></e>       
+    <e lm="افروزاندن" r="LR"><p><l>نمیافروزان</l><r>افروزاندن</r></p><par n="نمی‌کن__vblex"/></e> 
+
+    <e lm="افروختن"><p><l>افروخت</l><r>افروخت</r></p><par n="کرد/ن__vblex"/></e>
+    <e lm="افروختن"><p><l>نیافروخت</l><r>افروخت</r></p><par n="نکرد/ن__vblex"/></e>
+    <e lm="افروختن"><p><l>می‌افروخت</l><r>افروخت</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="افروختن" r="LR"><p><l>میافروخت</l><r>افروخت</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="افروختن"><p><l>نمی‌افروخت</l><r>افروخت</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="افروختن" r="LR"><p><l>نمیافروخت</l><r>افروخت</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="افروختن"><p><l>بیافراز</l><r>افروختن</r></p><par n="بکن__vblex"/></e>             
+    <e lm="افروختن"><p><l>نیافراز</l><r>افروختن</r></p><par n="نکن__vblex"/></e>             
+    <e lm="افروختن"><p><l>می‌افراز</l><r>افروختن</r></p><par n="می‌کن__vblex"/></e>         
+    <e lm="افروختن" r="LR"><p><l>میافراز</l><r>افروختن</r></p><par n="می‌کن__vblex"/></e>   
+    <e lm="افروختن"><p><l>نمی‌افراز</l><r>افروختن</r></p><par n="نمی‌کن__vblex"/></e>       
+    <e lm="افروختن" r="LR"><p><l>نمیافراز</l><r>افروختن</r></p><par n="نمی‌کن__vblex"/></e> 
+
+    <e lm="افراشتن"><p><l>افراشت</l><r>افراشت</r></p><par n="کرد/ن__vblex"/></e>
+    <e lm="افراشتن"><p><l>نیافراشت</l><r>افراشت</r></p><par n="نکرد/ن__vblex"/></e>
+    <e lm="افراشتن"><p><l>می‌افراشت</l><r>افراشت</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="افراشتن" r="LR"><p><l>میافراشت</l><r>افراشت</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="افراشتن"><p><l>نمی‌افراشت</l><r>افراشت</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="افراشتن" r="LR"><p><l>نمیافراشت</l><r>افراشت</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="افراشتن"><p><l>بیافراز</l><r>افراشتن</r></p><par n="بکن__vblex"/></e>             
+    <e lm="افراشتن"><p><l>نیافراز</l><r>افراشتن</r></p><par n="نکن__vblex"/></e>             
+    <e lm="افراشتن"><p><l>می‌افراز</l><r>افراشتن</r></p><par n="می‌کن__vblex"/></e>         
+    <e lm="افراشتن" r="LR"><p><l>میافراز</l><r>افراشتن</r></p><par n="می‌کن__vblex"/></e>   
+    <e lm="افراشتن"><p><l>نمی‌افراز</l><r>افراشتن</r></p><par n="نمی‌کن__vblex"/></e>       
+    <e lm="افراشتن" r="LR"><p><l>نمیافراز</l><r>افراشتن</r></p><par n="نمی‌کن__vblex"/></e> 
+
+    <e lm="آشامیدن"><p><l>آشامید</l><r>آشامید</r></p><par n="کرد/ن__vblex"/></e>
+    <e lm="آشامیدن"><p><l>نیاشامید</l><r>آشامید</r></p><par n="نکرد/ن__vblex"/></e>
+    <e lm="آشامیدن"><p><l>می‌آشامید</l><r>آشامید</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="آشامیدن" r="LR"><p><l>میآشامید</l><r>آشامید</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="آشامیدن"><p><l>نمی‌آشامید</l><r>آشامید</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="آشامیدن" r="LR"><p><l>نمیآشامید</l><r>آشامید</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="آشامیدن"><p><l>بیاشام</l><r>آشامیدن</r></p><par n="بکن__vblex"/></e>             
+    <e lm="آشامیدن"><p><l>نیاشام</l><r>آشامیدن</r></p><par n="نکن__vblex"/></e>             
+    <e lm="آشامیدن"><p><l>می‌آشام</l><r>آشامیدن</r></p><par n="می‌کن__vblex"/></e>         
+    <e lm="آشامیدن" r="LR"><p><l>میآشام</l><r>آشامیدن</r></p><par n="می‌کن__vblex"/></e>   
+    <e lm="آشامیدن"><p><l>نمی‌آشام</l><r>آشامیدن</r></p><par n="نمی‌کن__vblex"/></e>       
+    <e lm="آشامیدن" r="LR"><p><l>نمیآشام</l><r>آشامیدن</r></p><par n="نمی‌کن__vblex"/></e> 
+
+    <e lm="آزمودن"><p><l>آزمود</l><r>آزمود</r></p><par n="کرد/ن__vblex"/></e>
+    <e lm="آزمودن"><p><l>نیازمود</l><r>آزمود</r></p><par n="نکرد/ن__vblex"/></e>
+    <e lm="آزمودن"><p><l>می‌آزمود</l><r>آزمود</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="آزمودن" r="LR"><p><l>میآزمود</l><r>آزمود</r></p><par n="می‌کرد/ن__vblex"/></e>
+    <e lm="آزمودن"><p><l>نمی‌آزمود</l><r>آزمود</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="آزمودن" r="LR"><p><l>نمیآزمود</l><r>آزمود</r></p><par n="نمی‌کرد/ن__vblex"/></e>
+    <e lm="آزمودن"><p><l>بیآزما</l><r>آزمودن</r></p><par n="بیا__vblex"/></e>
+    <e lm="آزمودن"><p><l>نیآزما</l><r>آزمودن</r></p><par n="نیا__vblex"/></e>
+    <e lm="آزمودن"><p><l>می‌آزما</l><r>آزمودن</r></p><par n="می‌ا__vblex"/></e>
+    <e lm="آزمودن" r="LR"><p><l>میآزما</l><r>آزمودن</r></p><par n="می‌ا__vblex"/></e>
+    <e lm="آزمودن"><p><l>نمی‌آزما</l><r>آزمودن</r></p><par n="نمی‌ا__vblex"/></e>
+    <e lm="آزمودن" r="LR"><p><l>نمیآزما</l><r>آزمودن</r></p><par n="نمی‌ا__vblex"/></e>
+
                             <e lm="رنجانیدن"><i/><par n="/VERBS__رنجانید"/></e>
 
                             <e lm="رنجاندن"><i/><par n="/VERBS__رنجاند"/></e>
@@ -3127,7 +3294,7 @@
                             <e lm="یافتن"><i/><par n="/VERBS__یافت"/></e>
 
     
-                            <e lm="آمدن"><i/><par n="/VERBS_vowel__مد"/></e>
+<!--                            <e lm="آمدن"><i/><par n="/VERBS_vowel__مد"/></e>
 
                             <e lm="آزمودن"><i/><par n="/VERBS_vowel__زمود"/></e>
 
@@ -3148,7 +3315,7 @@
                             <e lm="اندوختن"><i/><par n="/VERBS_vowel__ندوختن"/></e>
 
                             <e lm="اندودن"><i/><par n="/VERBS_vowel__نباشت"/></e>
-
+-->
 
                             <e lm=""><i/><par n="perfect_endings"/></e>
 
