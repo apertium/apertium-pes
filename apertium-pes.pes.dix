@@ -904,11 +904,11 @@
     </pardef>
                             
     <pardef n="می‌کرد/ن__vblex" c="imperfect (past cont.)">
-      <e><p><l></l><r>ن<s n="vblex"/><s n="cont"/><s n="past"/></r></p><par n="past_endings"/></e>
+      <e><p><l></l><r>ن<s n="vblex"/><s n="cont"/><s n="pii"/></r></p><par n="past_endings"/></e>
     </pardef>
                             
     <pardef n="نمی‌کرد/ن__vblex" c="negative imperfect (past cont.)">
-      <e><p><l></l><r>ن<s n="vblex"/><s n="neg"/><s n="cont"/><s n="past"/></r></p><par n="past_endings"/></e>
+      <e><p><l></l><r>ن<s n="vblex"/><s n="neg"/><s n="cont"/><s n="pii"/></r></p><par n="past_endings"/></e>
     </pardef>
                             
     <pardef n="بکن__vblex" c="subjunctive">
