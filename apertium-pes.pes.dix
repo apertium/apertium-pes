@@ -850,11 +850,14 @@
 
     <pardef n="imp_endings">
       <e><p><l/><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>یم</l><r><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>ید</l><r><s n="p2"/><s n="pl"/></r></p></e>
     </pardef>
 
     <pardef n="imp_endings2" c="the attach to final stem vowels">
       <e><p><l/><r><s n="p2"/><s n="sg"/></r></p></e>
+      <e><p><l>ییم</l><r><s n="p1"/><s n="pl"/></r></p></e>
+      <e><p><l>ئیم</l><r><s n="p1"/><s n="pl"/></r></p></e>
       <e><p><l>یید</l><r><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>ئید</l><r><s n="p2"/><s n="pl"/></r></p></e>
     </pardef>
