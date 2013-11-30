@@ -3025,8 +3025,8 @@
   <e lm=""><i/><par n="perfect_endings"/></e>
 
   <e lm="را"><i>را</i><par n="را__enc"/></e>
-<!--
-  SECTION: Conjunctions
+
+  <!-- SECTION: Conjunctions -->
   <e lm="و"><i>و</i><par n="و__cnjcoo"/></e>
   <e lm="ای"><i>ای</i><par n="و__cnjcoo"/></e>
   <e lm="یا"><i>یا</i><par n="و__cnjcoo"/></e>
@@ -3034,7 +3034,7 @@
   <e lm="لیکن"><i>لیکن</i><par n="و__cnjcoo"/></e>
   <e lm="اما"><i>اما</i><par n="و__cnjcoo"/></e>
 
-  SECTION: Pronouns
+  <!-- SECTION: Pronouns -->
   <e lm="personal subject pronouns"><i/><par n="prsubj__prn"/></e>
   <e lm="که"><i>که</i><par n="که__rel"/></e>
   <e lm="این"><i>این</i><par n="این__prn"/></e>
@@ -3046,14 +3046,14 @@
   <e lm="هیچیک"><i>هیچیک</i><par n="هیچ__prn"/></e>
   <e lm="خود"><i>خود</i><par n="خود__prn"/></e>
 
-  SECTION: Determinters
+  <!-- SECTION: Determinters -->
   <e lm="این"><i>این</i><par n="این__det"/></e>
   <e lm="آن"><i>آن</i><par n="این__det"/></e>
   <e lm="شد"><i>شد</i><par n="این__det"/></e>
   <e lm="هر"><i>هر</i><par n="هر__det"/></e>
   <e lm="همه"><i>همه</i><par n="هر__det"/></e>
 
-  SECTION: Prepositions
+  <!-- SECTION: Prepositions -->
   <e lm="اندر"><i>اندر</i><par n="ﺩﺭ__pr"/></e>
   <e lm="از"><i>از</i><par n="ﺩﺭ__pr"/></e>
   <e lm="با"><i>با</i><par n="ﺩﺭ__pr"/></e>
@@ -3094,7 +3094,7 @@
   <e lm="ولو"><i>ولو</i><par n="ﺩﺭ__pr"/></e>
   <e lm="ولى"><i>ولى</i><par n="ﺩﺭ__pr"/></e>
 
-  SECTION: Numerals
+  <!-- SECTION: Numerals -->
   <e lm="یک"><i>یک</i><par n="یک__num"/></e>
   <e lm="دو"><i>دو</i><par n="ﺩﻭ__num"/></e>
   <e lm="ﺩﻭ"><i>ﺩﻭ</i><par n="ﺩﻭ__num"/></e>
@@ -3127,7 +3127,7 @@
   <e lm="دوصد"><i>دوصد</i><par n="ﺩﻭ__num"/></e>
   <e lm="دویست"><i>دویست</i><par n="ﺩﻭ__num"/></e>
 
-  SECTION: Proper Nouns
+  <!-- SECTION: Proper Nouns -->
   <e lm="اریتره"><i>اریتره</i><par n="تاجیکستان__np"/></e>
   <e lm="دوشنبه"><i>دوشنبه</i><par n="تاجیکستان__np"/></e>
   <e lm="پاپوا گینه نو"><i>پاپوا<b/>گینه<b/>نو</i><par n="تاجیکستان__np"/></e>
@@ -5214,7 +5214,7 @@
   <e lm="ووشو"><i>ووشو</i><par n="بابک__np"/></e>
   <e lm="یوونتوس"><i>یوونتوس</i><par n="بابک__np"/></e>
 
-  SECTION: Nouns
+  <!-- SECTION: Nouns -->
   <e lm="مادهٔ"><i>مادهٔ</i><par n="دشمن__n"/></e>
   <e lm="دارای"><i>دارای</i><par n="دشمن__n"/></e>
   <e lm="یابی"><i>یابی</i><par n="دشمن__n"/></e>
@@ -11405,7 +11405,7 @@
   <e lm="وکلای"><i>وکلای</i><par n="اجسام__n"/></e>
   <e lm="ولایات"><i>ولایات</i><par n="اجسام__n"/></e>
 
-   SECTION: Adverbs 
+   <!-- SECTION: Adverbs  -->
   <e lm="همه"><i>همه</i><par n="هنوز__adv"/></e>
   <e lm="حاضر"><i>حاضر</i><par n="هنوز__adv"/></e>
   <e lm="اتفاقی"><i>اتفاقی</i><par n="هنوز__adv"/></e>
@@ -11994,7 +11994,7 @@
   <e lm="وگوهای"><i>وگوهای</i><par n="هنوز__adv"/></e>
   <e lm="وهمچنین"><i>وهمچنین</i><par n="هنوز__adv"/></e>
 
-  SECTION: Adjectives 
+  <!-- SECTION: Adjectives  -->
   <e lm="آزاد"><i>آزاد</i><par n="بزرگ__adj"/></e>
   <e lm="کلان"><i>کلان</i><par n="بزرگ__adj"/></e>
   <e lm="کلان‌"><i>کلان‌</i><par n="بزرگ__adj"/></e>
@@ -13898,7 +13898,7 @@
   <e lm="وفادار"><i>وفادار</i><par n="بزرگ__adj"/></e>
   <e lm="یونانی"><i>یونانی</i><par n="بزرگ__adj"/></e>
   
-  SECTION: Interjections
+  <!-- SECTION: Interjections -->
   <e lm="آی"><i>آی</i><par n="اوه__ij"/></e>
   <e lm="ای"><i>ای</i><par n="اوه__ij"/></e>
   <e lm="احسنت"><i>احسنت</i><par n="اوه__ij"/></e>
@@ -13927,7 +13927,7 @@
   <e lm="هی"><i>هی</i><par n="اوه__ij"/></e>
   <e lm="هان"><i>هان</i><par n="اوه__ij"/></e>
   <e lm="وای"><i>وای</i><par n="اوه__ij"/></e>
-  <e lm="واخ"><i>واخ</i><par n="اوه__ij"/></e>    -->
+  <e lm="واخ"><i>واخ</i><par n="اوه__ij"/></e>    
 </section>
 <section id="final" type="inconditional">
   <e><par n="numeros"/></e>
