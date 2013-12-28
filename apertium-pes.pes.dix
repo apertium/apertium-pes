@@ -3191,6 +3191,7 @@
 
   <e lm=""><i/><par n="perfect_endings"/></e>
 
+  <e lm="را"><p><l>را</l><r>را<s n="enc"/><s n="obm"/></r></p></e>
   <e lm="را"><i>را</i><s n="enc"/><s n="obm"/></e>
 
   <!-- SECTION: Conjunctions -->
