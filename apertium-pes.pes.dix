@@ -422,9 +422,9 @@
   </pardef>
   <!-- Plural suffix paradigms -->
   <pardef n="S__pl1">
-    <e><p><l>‌ها</l><r><s n="pl"/></r></p></e>
-<!--    <e><p><l>‌ها</l><r><s n="pl"/></r></p><par n="S__alef_or_vav"/></e>
--->  </pardef>
+    <e><p><l>ها</l><r><s n="pl"/></r></p></e>
+    <e><p><l>ها</l><r><s n="pl"/></r></p><par n="S__alef_or_vav"/></e>
+  </pardef>
   <pardef n="S__pl2">
     <!-- preceding ZWNJ in next 4 lines -->
     <e><p><l>‌ها</l><r><s n="pl"/></r></p></e>
