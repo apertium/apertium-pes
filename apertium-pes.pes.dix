@@ -423,8 +423,8 @@
   <!-- Plural suffix paradigms -->
   <pardef n="S__pl1">
     <e><p><l>‌ها</l><r><s n="pl"/></r></p></e>
-    <e><p><l>‌ها</l><r><s n="pl"/></r></p><par n="S__alef_or_vav"/></e>
-  </pardef>
+<!--    <e><p><l>‌ها</l><r><s n="pl"/></r></p><par n="S__alef_or_vav"/></e>
+-->  </pardef>
   <pardef n="S__pl2">
     <!-- preceding ZWNJ in next 4 lines -->
     <e><p><l>‌ها</l><r><s n="pl"/></r></p></e>
@@ -7600,6 +7600,7 @@
   <e lm="صحت"><i>صحت</i><par n="کتاب__n"/></e>
   <e lm="صحن"><i>صحن</i><par n="کتاب__n"/></e>
   <e lm="صدراعظم"><i>صدراعظم</i><par n="کتاب__n"/></e>
+  <e lm="صدا"><i>صدا</i><par n="صدا__n"/></e>
   <e lm="صدف"><i>صدف</i><par n="کتاب__n"/></e>
   <e lm="صدق"><i>صدق</i><par n="کتاب__n"/></e>
   <e lm="صدمی"><i>صدمی</i><par n="کتاب__n"/></e>
