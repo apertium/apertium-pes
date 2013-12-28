@@ -361,8 +361,8 @@
     <e>       <p><l>ِ</l><r><j/>ی<s n="enc"/><s n="izo"/></r></p></e>
   </pardef>
   <pardef n="S__ezafe_hamza_or_ye">
-    <e>       <p><l>‌ه‌ی</l></l><r><j/>ی<s n="enc"/><s n="izo"/></r></p></e>
-    <e r="LR"><p><l>ۀ</l></l><r><j/>ی<s n="enc"/><s n="izo"/></r></p></e>
+    <e>       <p><l>‌ه‌ی</l><r><j/>ی<s n="enc"/><s n="izo"/></r></p></e>
+    <e r="LR"><p><l>ۀ</l><r><j/>ی<s n="enc"/><s n="izo"/></r></p></e>
   </pardef>
   <!-- old stuff 
   <pardef n="S__ی">
