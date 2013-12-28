@@ -329,12 +329,6 @@
   <pardef n="دوم__det">
     <e>       <p><l/><r><s n="det"/><s n="ord"/><s n="sp"/></r></p></e>
   </pardef>
-  <pardef n="یک__num">
-    <e>       <p><l/><r><s n="num"/><s n="sg"/></r></p><par n="S__ی"/></e>
-  </pardef>
-  <pardef n="ﺩﻭ__num">
-    <e>       <p><l/><r><s n="num"/><s n="sp"/></r></p><par n="S__ی"/></e>
-  </pardef>
   <pardef n="تاجیکستان__np">
     <e>       <p><l/><r><s n="np"/><s n="top"/><s n="sg"/></r></p></e>
   </pardef>
@@ -396,6 +390,13 @@
     <e>       <p><l/><r><s n="enc"/></r></p></e>
   </pardef>
 -->  
+  <pardef n="یک__num">
+    <e>       <p><l/><r><s n="num"/><s n="sg"/></r></p><par n="S__ی"/></e>
+  </pardef>
+  <pardef n="ﺩﻭ__num">
+    <e>       <p><l/><r><s n="num"/><s n="sp"/></r></p><par n="S__ی"/></e>
+  </pardef>
+
   
   <!-- new stuff -->
   <!-- Enclitic combinations based on root endings -->
