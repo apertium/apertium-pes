@@ -2,5 +2,9 @@
 /Makefile -text
 /apertium-pes.pes.dix -text
 dev/apertium-tg-fa.fa.dix -text
+metadix-example/Makefile -text
+metadix-example/apertium-pes.pes.metadix -text svneol=unset#application/xml
+metadix-example/buscaPar.xsl -text svneol=unset#application/xml
+metadix-example/principal.xsl -text svneol=unset#application/xml
 /pes.prob -text
 /test_words.txt -text svneol=unset#application/octet-stream
