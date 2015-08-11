@@ -1,6 +1,7 @@
 * text=auto !eol
 /Makefile -text
 /apertium-pes.pes.dix -text
+/apertium-pes.post-pes.dix -text
 dev/apertium-tg-fa.fa.dix -text
 metadix-example/Makefile -text
 metadix-example/apertium-pes.pes.metadix -text
