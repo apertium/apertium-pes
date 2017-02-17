@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <dictionary>
-<alphabet>شابپتثچجحَخِديذةرزژسشصضطظعغقکگلىمنهیئونكفهؤپءٔأآاً</alphabet>
+<alphabet>ضصثقفغعهخحجچشسیبلاتنمکگظطزرذدپوًٌٍَُِّْؤئيإأآةكژٰٓ‌ٔء</alphabet>
 <sdefs>
   <sdef n="n" c="Noun"/>
   <sdef n="m" c="Masculine"/>
@@ -96,17 +96,56 @@
   <sdef n="bi" c="bi verb prefix"/>
   <sdef n="cont" c="continuous verb prefix"/>
   <sdef n="pprf" c="present perfect verb"/>
+  <sdef n="lquot" c=""/>
+  <sdef n="rquot" c=""/>
+
   </sdefs>
+    <!-- SECTION: Punctuation -->
+
 <pardefs>
-  <pardef n="numeros">
-    <e><re>[0-9]+([., ][0-9]+)?</re><p><l/><r><s n="num"/></r></p></e>
-  </pardef>
-  <pardef n="coma">
-    <e>       <p><l>،</l><r>،<s n="cm"/></r></p></e>
-  </pardef>
-  <pardef n="separa">
-    <e><re>[.\?;:!]+</re><p><l/><r><s n="sent"/></r></p></e>
-  </pardef>
+    <pardef n="separa">
+      <e><re>[.:!]</re><p><l></l><r><s n="sent"/></r></p></e>
+      <e><p><l>؟</l><r>؟<s n="sent"/></r></p></e>
+      <e r="LR"><p><l>?</l><r>؟<s n="sent"/></r></p></e>
+      <e><p><l>؛</l><r>؛<s n="sent"/></r></p></e>
+      <e r="LR"><p><l>;</l><r>؛<s n="sent"/></r></p></e>
+    </pardef>
+    <pardef n="coma">
+      <e><p><l>،</l><r>،<s n="cm"/></r></p></e>
+	  <e r="LR"><p><l>,</l><r>,<s n="sent"/></r></p></e>
+    </pardef>
+    <pardef n="quotes">
+      <e><re>[«]+</re><p><l></l><r><s n="lquot"/></r></p></e>
+      <e><re>[»]+</re><p><l></l><r><s n="rquot"/></r></p></e>
+    </pardef>
+
+    <pardef n="paresq">
+      <e><re>[\(\[]</re><p><l></l><r><s n="lpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="pardret">
+      <e><re>[\)\]]</re><p><l></l><r><s n="rpar"/></r></p></e>
+    </pardef>
+
+    <pardef n="urls">
+    <e>
+      <re>(http://|https://|ftp://)?[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*(.[áéíóúàèìòùäëïöüñça-z0-9](([\-_])?[áéíóúàèìòùäëïöüñça-z0-9])*)*(.[a-z][a-z]|.aero|.asia|.biz|.cat|.com|.coop|.edu|.gov|.info|.int|.jobs|.mil|.mobi|.museum|.name|.net|.org|.pro|.tel|.travel)(/([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*/)*([áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+(.[áéíóúàèìòùäëïöüñça-z0-9\-_\?=&amp;\*,]+)*)?)?</re><p><l></l> <r><s n="num"/></r> </p>
+    </e>
+    </pardef>
+    <pardef n="ip">
+    <e>       <re>(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9])(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))(.(25[0-5]|2[0-4][0-9]|[0-1]?[0-9]?[0-9]))</re><p><l></l><r><s n="web"/></r></p></e>
+    </pardef>
+
+    <pardef n="numeros">
+      <e><re>(Lm|€|£) ?.?[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)? ?%</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?</re><i>-</i><re>[0-9]+([.,][0-9]+)?%?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?[:.][0-9]+([.,][0-9]+)?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[0-9]+([.,][0-9]+)?[:.][0-9]+([.,][0-9]+)? ?(a|p|A|P).?(m|M).?</re><p><l></l><r><s n="num"/></r></p></e>
+      <e><re>[۰۱۲۳۴۵۶۷۸۹]+([.,%٫٬٪ ][۰۱۲۳۴۵۶۷۸۹]+)?</re><p><l/><r><s n="num"/></r></p></e>
+    </pardef>
+
   <!-- new stuff -->
   <pardef n="S__poss">
     <e>       <p><l>م</l><r><j/>ام<s n="enc"/><s n="px1sg"/></r></p></e>
@@ -295,9 +334,6 @@
     <e>       <p><l/><r><s n="prn"/><s n="dem"/><s n="sg"/></r></p></e>
     <e>       <p><l>هﺍ</l><r><s n="prn"/><s n="dem"/><s n="pl"/></r></p></e>
   </pardef>
-  <pardef n="خود__prn">
-    <e>       <p><l/><r><s n="prn"/><s n="ref"/></r></p></e>
-  </pardef>
   <pardef n="هیچ__prn">
     <e>       <p><l/><r><s n="prn"/><s n="ind"/></r></p></e>
   </pardef>
@@ -310,9 +346,6 @@
   </pardef>
   <pardef n="ﺩرباره__pr">
     <e>       <p><l/><r><s n="pr"/></r></p></e>
-  </pardef>
-  <pardef n="هنوز__adv">
-    <e>       <p><l/><r><s n="adv"/></r></p></e>
   </pardef>
   <pardef n="هنوز__adv">
     <e>       <p><l/><r><s n="adv"/></r></p></e>
