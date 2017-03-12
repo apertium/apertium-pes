@@ -3,6 +3,7 @@
 /apertium-pes.pes.dix -text
 /apertium-pes.pes.rlx -text
 /apertium-pes.post-pes.dix -text
+dev/apertium-far.far.dix -text
 dev/apertium-tg-fa.fa.dix -text
 metadix-example/Makefile -text
 metadix-example/apertium-pes.pes.metadix -text
