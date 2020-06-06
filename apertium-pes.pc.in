@@ -1,0 +1,8 @@
+prefix=@prefix@
+exec_prefix=${prefix}
+srcdir=@datarootdir@/apertium/apertium-pes
+
+Name: apertium-pes
+Description: Finite-state morphological transducer and constraint grammar for Iranian Persian
+Version: @VERSION@
+
