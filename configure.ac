@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Iranian Persian], [0.1.0], [apertium-stuff@lists.sourceforge.net], [apertium-pes], [http://wiki.apertium.org/wiki/Apertium-pes])
+AC_INIT([Apertium Iranian Persian], [0.1.0], [apertium-stuff@lists.sourceforge.net], [apertium-pes], [https://wiki.apertium.org/wiki/Apertium-pes])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
