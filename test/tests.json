@@ -1,0 +1,6 @@
+{
+    "words": {
+        "input": "words-input.txt",
+        "mode": "pes-morph"
+    }
+}

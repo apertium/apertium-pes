@@ -1,0 +1,222 @@
+[00lIEJAig3eE#0] ^نمی‌کنی/کردن<vblex><neg><cont><pri><p2><sg>/کندن<vblex><neg><cont><pri><p2><sg>$
+[/00lIEJAig3eE]
+[2J-sSm301ggW#0] ^بده/دادن<vblex><imp><p2><sg>$
+[/2J-sSm301ggW]
+[3V-ehGyGxVGx#0] ^نمی‌کردی/کردن<vblex><neg><cont><pii><p2><sg>$
+[/3V-ehGyGxVGx]
+[3uKbt8Hzxk2z#0] ^می‌کردی/کردن<vblex><cont><pii><p2><sg>$
+[/3uKbt8Hzxk2z]
+[4vT6ZFGgHKUR#0] ^نکرده‌اند/کردن<vblex><neg><pprf><p3><pl>$
+[/4vT6ZFGgHKUR]
+[68idpqcWK4gZ#0] ^بکنند/کردن<vblex><prs><p3><pl>/کندن<vblex><prs><p3><pl>$
+[/68idpqcWK4gZ]
+[6prSTYFJ996q#0] ^نمی‌کند/کردن<vblex><neg><cont><pri><p3><sg>/کندن<vblex><neg><cont><pri><p3><sg>/کندن<vblex><neg><cont><pii><p3><sg>$
+[/6prSTYFJ996q]
+[6zAvToYU5mFn#0] ^نشدم/شدن<vblex><neg><past><p1><sg>$
+[/6zAvToYU5mFn]
+[7hB-jWg-OzUB#0] ^کرده‌ای/کردن<vblex><pprf><p2><sg>/کرده<n><sg>+ی<enc><ind>$
+[/7hB-jWg-OzUB]
+[84iUK1up78Xc#0] ^بکنید/کردن<vblex><imp><p2><pl>/کردن<vblex><prs><p2><pl>/کندن<vblex><imp><p2><pl>/کندن<vblex><prs><p2><pl>$
+[/84iUK1up78Xc]
+[8GzPPZtjj35p#0] ^برو/رفتن<vblex><imp><p2><sg>$
+[/8GzPPZtjj35p]
+[8MpA4I88RW04#0] ^نکرده‌است/کردن<vblex><neg><pprf><p3><sg>$
+[/8MpA4I88RW04]
+[9IWWl217cQ0e#0] ^گرفتن/گرفتن<vblex><inf>$
+[/9IWWl217cQ0e]
+[CHKjiGRsPexn#0] ^نکرده‌اید/کردن<vblex><neg><pprf><p2><pl>$
+[/CHKjiGRsPexn]
+[CJrxAaaMqjSt#0] ^نمی‌گیرد/گرفتن<vblex><neg><cont><pri><p3><sg>$
+[/CJrxAaaMqjSt]
+[CM1VybogDDTA#0] ^کرده‌اند/کردن<vblex><pprf><p3><pl>$
+[/CM1VybogDDTA]
+[DyUEYnt-RzGg#0] ^می‌شود/شدن<vblex><cont><pri><p3><sg>$
+[/DyUEYnt-RzGg]
+[EINXg44JLEvK#0] ^بشود/شدن<vblex><prs><p3><sg>$
+[/EINXg44JLEvK]
+[EKRkFZn8b2q4#0] ^نکردم/کردن<vblex><neg><past><p1><sg>$
+[/EKRkFZn8b2q4]
+[Ea1s6fquZ1ex#0] ^می‌کنید/کردن<vblex><cont><pri><p2><pl>/کندن<vblex><cont><pri><p2><pl>$
+[/Ea1s6fquZ1ex]
+[FEcV-E7K2Yic#0] ^زدم/زدن<vblex><past><p1><sg>/زد<n><sg>+ام<enc><px1sg>$
+[/FEcV-E7K2Yic]
+[FiFhgcx7MX7x#0] ^نمی‌روم/رفتن<vblex><neg><cont><pri><p1><sg>$
+[/FiFhgcx7MX7x]
+[G9htrq06_q9g#0] ^می‌کنیم/کردن<vblex><cont><pri><p1><pl>/کندن<vblex><cont><pri><p1><pl>$
+[/G9htrq06_q9g]
+[GIRhg3m9FYUG#0] ^نروم/رفتن<vblex><neg><prs><p1><sg>$
+[/GIRhg3m9FYUG]
+[GJQVFhcKMPSa#0] ^می‌کردند/کردن<vblex><cont><pii><p3><pl>$
+[/GJQVFhcKMPSa]
+[GY9sIpRZ_F_8#0] ^بدهد/دادن<vblex><prs><p3><sg>$
+[/GY9sIpRZ_F_8]
+[GxGPOY_wAO__#0] ^بکند/کردن<vblex><prs><p3><sg>/کندن<vblex><prs><p3><sg>$
+[/GxGPOY_wAO__]
+[HItbxJsLVtxe#0] ^نکردند/کردن<vblex><neg><past><p3><pl>$
+[/HItbxJsLVtxe]
+[HUeZiRaset3n#0] ^کردید/کردن<vblex><past><p2><pl>$
+[/HUeZiRaset3n]
+[HX5kZgSc8BFX#0] ^نزنم/زدن<vblex><neg><prs><p1><sg>$
+[/HX5kZgSc8BFX]
+[HhoaROvum0O1#0] ^می‌زنم/زدن<vblex><cont><pri><p1><sg>$
+[/HhoaROvum0O1]
+[HoCBJok3zwiE#0] ^نمی‌کنم/کردن<vblex><neg><cont><pri><p1><sg>/کندن<vblex><neg><cont><pri><p1><sg>$
+[/HoCBJok3zwiE]
+[HyDHCeROWCOx#0] ^نکرده‌ام/کردن<vblex><neg><pprf><p1><sg>$
+[/HyDHCeROWCOx]
+[I1mLbOiehjOT#0] ^می‌شوند/شدن<vblex><cont><pri><p3><pl>$
+[/I1mLbOiehjOT]
+[IKA268vm-k79#0] ^نمی‌دهند/دادن<vblex><neg><cont><pri><p3><pl>$
+[/IKA268vm-k79]
+[JbqtCG3lM0OU#0] ^می‌کرد/کردن<vblex><cont><pii><p3><sg>$
+[/JbqtCG3lM0OU]
+[JeeQup2jKMQK#0] ^نمی‌کردید/کردن<vblex><neg><cont><pii><p2><pl>$
+[/JeeQup2jKMQK]
+[Jv2wxX3msm9_#0] ^کردند/کردن<vblex><past><p3><pl>$
+[/Jv2wxX3msm9_]
+[K1XOG2BPuq8E#0] ^زدن/زدن<vblex><inf>$
+[/K1XOG2BPuq8E]
+[LEEsqWYPjyMo#0] ^نمی‌کردم/کردن<vblex><neg><cont><pii><p1><sg>$
+[/LEEsqWYPjyMo]
+[O55NQVzR0KmW#0] ^کردن/کردن<vblex><inf>$
+[/O55NQVzR0KmW]
+[OAV5sxt0BYYL#0] ^نمی‌رفتم/رفتن<vblex><neg><cont><pii><p1><sg>$
+[/OAV5sxt0BYYL]
+[OOLuYGwj-akH#0] ^زده/زده<n><sg>/زده<adj><pst>/زدن<vblex><pp>$
+[/OOLuYGwj-akH]
+[OV5sj3G1NIeN#0] ^کردم/کردن<vblex><past><p1><sg>$
+[/OV5sj3G1NIeN]
+[PU2ODAokbQrp#0] ^کرد/کردن<vblex><past><p3><sg>$
+[/PU2ODAokbQrp]
+[QKvggAfPQoTK#0] ^کتاب/کتاب<n><sg>$
+[/QKvggAfPQoTK]
+[QYxKatXvijCg#0] ^بکنیم/کردن<vblex><imp><p1><pl>/کردن<vblex><prs><p1><pl>/کندن<vblex><imp><p1><pl>/کندن<vblex><prs><p1><pl>$
+[/QYxKatXvijCg]
+[QqSQPmXwEK8C#0] ^بکن/کردن<vblex><imp><p2><sg>/کندن<vblex><imp><p2><sg>$
+[/QqSQPmXwEK8C]
+[R16me0iRKIH4#0] ^ندهید/دادن<vblex><neg><imp><p2><pl>/دادن<vblex><neg><prs><p2><pl>$
+[/R16me0iRKIH4]
+[RI-zbbRkQAVb#0] ^شدن/شدن<vblex><inf>$
+[/RI-zbbRkQAVb]
+[Rj-Y-_Po4n9G#0] ^نگیرند/گرفتن<vblex><neg><prs><p3><pl>$
+[/Rj-Y-_Po4n9G]
+[SyVV4THlVxsi#0] ^کرده‌است/کردن<vblex><pprf><p3><sg>$
+[/SyVV4THlVxsi]
+[T8MoxNUlE-rm#0] ^شدم/شدن<vblex><past><p1><sg>$
+[/T8MoxNUlE-rm]
+[TF5lLbmx7IWA#0] ^کرده‌ام/کردن<vblex><pprf><p1><sg>/کرده<n><sg>+ام<enc><px1sg>$
+[/TF5lLbmx7IWA]
+[TZ2jN-o6_0DX#0] ^نکرده‌ایم/کردن<vblex><neg><pprf><p1><pl>$
+[/TZ2jN-o6_0DX]
+[U2NOz-A0h7CN#0] ^رفتم/رفتن<vblex><past><p1><sg>$
+[/U2NOz-A0h7CN]
+[W2bnHuS2_Ppt#0] ^می‌رفتم/رفتن<vblex><cont><pii><p1><sg>$
+[/W2bnHuS2_Ppt]
+[WkZdCDMOVl5y#0] ^می‌شدم/شدن<vblex><cont><pii><p1><sg>$
+[/WkZdCDMOVl5y]
+[XNYLFyT9AT06#0] ^نمی‌کرد/کردن<vblex><neg><cont><pii><p3><sg>$
+[/XNYLFyT9AT06]
+[XZeRMEDYT6iH#0] ^رفتن/رفتن<vblex><inf>$
+[/XZeRMEDYT6iH]
+[Y_BS278JZNAb#0] ^نمی‌کنند/کردن<vblex><neg><cont><pri><p3><pl>/کندن<vblex><neg><cont><pri><p3><pl>$
+[/Y_BS278JZNAb]
+[YgRPirjz22ZC#0] ^دادم/دادن<vblex><past><p1><sg>$
+[/YgRPirjz22ZC]
+[ZqfadE9_HBew#0] ^کرده‌اید/کردن<vblex><pprf><p2><pl>$
+[/ZqfadE9_HBew]
+[Zvzb7XmEeoRF#0] ^کرده‌ایم/کردن<vblex><pprf><p1><pl>$
+[/Zvzb7XmEeoRF]
+[_BmvSr-AKHof#0] ^نمیکردم/کردن<vblex><neg><cont><pii><p1><sg>$
+[/_BmvSr-AKHof]
+[_VLGltYaoc4o#0] ^گرفته/گرفته<adj><pst>/گرفتن<vblex><pp>$
+[/_VLGltYaoc4o]
+[_ics_-futZlX#0] ^میکنم/کردن<vblex><cont><pri><p1><sg>/کندن<vblex><cont><pri><p1><sg>$
+[/_ics_-futZlX]
+[aBp1DyMWAh8e#0] ^بگیر/بگیر<n><sg>/گرفتن<vblex><imp><p2><sg>$
+[/aBp1DyMWAh8e]
+[agGdFSnwsO6J#0] ^شده/شده<n><sg>/شده<adj><pst>/شدن<vblex><pp>$
+[/agGdFSnwsO6J]
+[bQQlC7DHWCQv#0] ^می‌کردیم/کردن<vblex><cont><pii><p1><pl>$
+[/bQQlC7DHWCQv]
+[cDGrZAbzRzOO#0] ^گرفتی/گرفتن<vblex><past><p2><sg>$
+[/cDGrZAbzRzOO]
+[cGpF4nCHMoxb#0] ^رفته/رفته<n><sg>/رفتن<vblex><pp>$
+[/cGpF4nCHMoxb]
+[cSN0XzvXB9kV#0] ^نمی‌کنید/کردن<vblex><neg><cont><pri><p2><pl>/کندن<vblex><neg><cont><pri><p2><pl>$
+[/cSN0XzvXB9kV]
+[dLroPBQh4tub#0] ^نکرده/کردن<vblex><neg><pp>$
+[/dLroPBQh4tub]
+[dYLF3b7Tmr3C#0] ^نده/دادن<vblex><neg><imp><p2><sg>$
+[/dYLF3b7Tmr3C]
+[e0xniKDoP6w2#0] ^بگیرید/گرفتن<vblex><imp><p2><pl>/گرفتن<vblex><prs><p2><pl>$
+[/e0xniKDoP6w2]
+[e3yrLlIHJbtE#0] ^می‌کند/کردن<vblex><cont><pri><p3><sg>/کندن<vblex><cont><pri><p3><sg>/کندن<vblex><cont><pii><p3><sg>$
+[/e3yrLlIHJbtE]
+[e5UIy97UCsb7#0] ^کردیم/کردن<vblex><past><p1><pl>$
+[/e5UIy97UCsb7]
+[eiYnGJmmY6ly#0] ^می‌کنم/کردن<vblex><cont><pri><p1><sg>/کندن<vblex><cont><pri><p1><sg>$
+[/eiYnGJmmY6ly]
+[f9Pyu_XB2_uG#0] ^نمی‌کردند/کردن<vblex><neg><cont><pii><p3><pl>$
+[/f9Pyu_XB2_uG]
+[gdsJU1RGwT0Q#0] ^نمی‌کردیم/کردن<vblex><neg><cont><pii><p1><pl>$
+[/gdsJU1RGwT0Q]
+[ghh-M1UMMrpf#0] ^بشوم/شدن<vblex><prs><p1><sg>$
+[/ghh-M1UMMrpf]
+[ivi3gbzFEcFq#0] ^بدهیم/دادن<vblex><imp><p1><pl>/دادن<vblex><prs><p1><pl>$
+[/ivi3gbzFEcFq]
+[jcaExmxxiDmI#0] ^کردی/کردن<vblex><past><p2><sg>$
+[/jcaExmxxiDmI]
+[jrBZIXAznAhm#0] ^نکرد/کردن<vblex><neg><past><p3><sg>$
+[/jrBZIXAznAhm]
+[kmdhdpkLB--0#0] ^نکرده‌ای/کردن<vblex><neg><pprf><p2><sg>$
+[/kmdhdpkLB--0]
+[lDpvmsBvHDM8#0] ^بکنی/کردن<vblex><prs><p2><sg>/کندن<vblex><prs><p2><sg>$
+[/lDpvmsBvHDM8]
+[li6TG7dfn_gV#0] ^می‌کنی/کردن<vblex><cont><pri><p2><sg>/کندن<vblex><cont><pri><p2><sg>$
+[/li6TG7dfn_gV]
+[lr79nmulJVNf#0] ^میکردم/کردن<vblex><cont><pii><p1><sg>$
+[/lr79nmulJVNf]
+[m8uFO53rMhgC#0] ^ندهیم/دادن<vblex><neg><imp><p1><pl>/دادن<vblex><neg><prs><p1><pl>$
+[/m8uFO53rMhgC]
+[n960CeGZbmNJ#0] ^نمی‌کنیم/کردن<vblex><neg><cont><pri><p1><pl>/کندن<vblex><neg><cont><pri><p1><pl>$
+[/n960CeGZbmNJ]
+[oGl9A8nWcBxr#0] ^می‌کردید/کردن<vblex><cont><pii><p2><pl>$
+[/oGl9A8nWcBxr]
+[pJrV2TP1ZRcD#0] ^دادن/دادن<vblex><inf>$
+[/pJrV2TP1ZRcD]
+[qmEvwOplxTQa#0] ^نمی‌شدم/شدن<vblex><neg><cont><pii><p1><sg>$
+[/qmEvwOplxTQa]
+[rH34U-5AgevI#0] ^کرده/کرده<n><sg>/کرده<adj><pst>/کردن<vblex><pp>$
+[/rH34U-5AgevI]
+[rJ4LOiMkdu1h#0] ^نکردی/کردن<vblex><neg><past><p2><sg>$
+[/rJ4LOiMkdu1h]
+[rsgDERM2lpI9#0] ^بکنم/کردن<vblex><prs><p1><sg>/کندن<vblex><prs><p1><sg>$
+[/rsgDERM2lpI9]
+[sInF9pmALTg5#0] ^نکردید/کردن<vblex><neg><past><p2><pl>$
+[/sInF9pmALTg5]
+[sgqFNfiLdKfL#0] ^بشوند/شدن<vblex><prs><p3><pl>$
+[/sgqFNfiLdKfL]
+[tSWHnJ8fFYGH#0] ^نکردن/کردن<vblex><neg><inf>$
+[/tSWHnJ8fFYGH]
+[tWIxoilgzl1E#0] ^می‌دهم/دادن<vblex><cont><pri><p1><sg>$
+[/tWIxoilgzl1E]
+[tZkrsfAll0xj#0] ^می‌روم/رفتن<vblex><cont><pri><p1><sg>$
+[/tZkrsfAll0xj]
+[wNKRL8GAb4ru#0] ^بدهید/دادن<vblex><imp><p2><pl>/دادن<vblex><prs><p2><pl>$
+[/wNKRL8GAb4ru]
+[wZlthLvU8_mx#0] ^بروم/رفتن<vblex><prs><p1><sg>$
+[/wZlthLvU8_mx]
+[wzrNXjO5nFzw#0] ^نمیکنم/کردن<vblex><neg><cont><pri><p1><sg>/کندن<vblex><neg><cont><pri><p1><sg>$
+[/wzrNXjO5nFzw]
+[xDOBvxuiRK94#0] ^نکردیم/کردن<vblex><neg><past><p1><pl>$
+[/xDOBvxuiRK94]
+[xSLAkXRrMqEa#0] ^می‌کردم/کردن<vblex><cont><pii><p1><sg>$
+[/xSLAkXRrMqEa]
+[xezKhcAHlYI5#0] ^می‌گیرم/گرفتن<vblex><cont><pri><p1><sg>$
+[/xezKhcAHlYI5]
+[xwKDbPONUuz9#0] ^می‌شوم/شدن<vblex><cont><pri><p1><sg>$
+[/xwKDbPONUuz9]
+[yMrLpqNG-85R#0] ^می‌کنند/کردن<vblex><cont><pri><p3><pl>/کندن<vblex><cont><pri><p3><pl>$
+[/yMrLpqNG-85R]
+[zv3UZBFuE3P7#0] ^کتابها/کتاب<n><pl>$
+[/zv3UZBFuE3P7]
